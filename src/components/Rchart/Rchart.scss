@@ -1,0 +1,11 @@
+.Rchart-container {
+}
+
+.yy{
+    transform:rotate(270deg);
+    -ms-transform:rotate(270deg); /* <a href="https://www.baidu.com/s?wd=Internet&tn=44039180_cpr&fenlei=mv6quAkxTZn0IZRqIHckPjm4nH00T1Y3n1Rsnym4rjI-nHcsryc40ZwV5Hcvrjm3rH6sPfKWUMw85HfYnjn4nH6sgvPsT6KdThsqpZwYTjCEQLGCpyw9Uz4Bmy-bIi4WUvYETgN-TLwGUv3EPHc4rHDYP10s" target="_blank" class="baidu-highlight">Internet</a> <a href="https://www.baidu.com/s?wd=Explorer&tn=44039180_cpr&fenlei=mv6quAkxTZn0IZRqIHckPjm4nH00T1Y3n1Rsnym4rjI-nHcsryc40ZwV5Hcvrjm3rH6sPfKWUMw85HfYnjn4nH6sgvPsT6KdThsqpZwYTjCEQLGCpyw9Uz4Bmy-bIi4WUvYETgN-TLwGUv3EPHc4rHDYP10s" target="_blank" class="baidu-highlight">Explorer</a> 9*/
+    -moz-transform:rotate(90deg); /* Firefox */
+    -webkit-transform:rotate(270deg); /* Safari 和 Chrome */
+    -o-transform:rotate(270deg); /* Opera */
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1); 
+}

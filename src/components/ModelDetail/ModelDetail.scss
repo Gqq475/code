@@ -1,0 +1,39 @@
+.ModelDetail-container {
+  border: 2px solid #d7d7d7;
+  border-radius: 4px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px 80px;
+}
+.textField {
+  padding: 10px 0;
+  display: flex;
+  justify-content: between;
+  align-items: flex-start;
+}
+  .key {
+    // width: 40%;
+    margin-right: 20px;
+    // text-align: right
+  }
+
+  .value {
+    // font-weight: bold;
+   // width: 60%;
+    word-break: break-all;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .rightTop {
+    position: relative;
+    margin-top: 10px;
+    background-color: #ccc;
+    padding: 10px 20px
+  }
+  .btn-submit {
+    position: absolute;
+    top: 30px;
+    right:60px
+  }
+  

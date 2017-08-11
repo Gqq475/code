@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) Echarts render normally 1`] = `
+<div
+  className="Echarts-container"
+>
+  <Tabs
+    initialSelectedTabIndex={0}
+  >
+    <TabList>
+      <Tab
+        isDisabled={false}
+        isSelected={false}
+      >
+        搬运路径共通性分析
+      </Tab>
+      <Tab
+        isDisabled={false}
+        isSelected={false}
+      >
+        设备端口共通性分析
+      </Tab>
+      <Tab
+        isDisabled={false}
+        isSelected={false}
+      >
+        STK共通性分析
+      </Tab>
+      <Tab
+        isDisabled={false}
+        isSelected={false}
+      >
+        起讫点共通性分析
+      </Tab>
+    </TabList>
+    <TabPanel>
+      <EchartsHandlingPath />
+    </TabPanel>
+    <TabPanel>
+      <EchartsEquipmentPort />
+    </TabPanel>
+    <TabPanel>
+      <EchartsgSTK />
+    </TabPanel>
+    <TabPanel>
+      <EchartsGetFromTo />
+    </TabPanel>
+  </Tabs>
+</div>
+`;

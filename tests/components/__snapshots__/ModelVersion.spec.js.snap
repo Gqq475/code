@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ModelVersion render normally 1`] = `
+<div
+  className="ModelVersion-container"
+>
+  <Connect(ModelList)
+    setDetail={[Function]}
+  />
+  <ModelDetail
+    data={Object {}}
+  />
+</div>
+`;

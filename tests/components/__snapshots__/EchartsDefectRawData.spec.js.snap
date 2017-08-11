@@ -1,0 +1,265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) EchartsDefectRawData render normally if handlingPath is exist 1`] = `
+<div
+  className="EchartsDefectRawData-container"
+>
+  <ECharts
+    config={Object {}}
+    id="chart"
+    lazyUpdate={false}
+    notMerge={false}
+    option={
+      Object {
+        "legend": Object {
+          "data": Array [
+            "Defect Number",
+            "Glass Number",
+            "Defect Rate",
+          ],
+        },
+        "series": Array [
+          Object {
+            "data": Array [
+              1961,
+              364,
+              165,
+              232,
+              256,
+              767,
+              1356,
+              1622,
+              326,
+              200,
+              64,
+              533,
+            ],
+            "name": "Defect Number",
+            "type": "bar",
+          },
+          Object {
+            "data": Array [
+              26,
+              59,
+              90,
+              264,
+              287,
+              707,
+              1756,
+              1822,
+              487,
+              188,
+              3460,
+              2453,
+            ],
+            "name": "Glass Number",
+            "type": "bar",
+          },
+          Object {
+            "data": Array [
+              206,
+              227,
+              339,
+              459,
+              639,
+              102,
+              203,
+              234,
+              230,
+              165,
+              120,
+              620,
+            ],
+            "name": "Defect Rate",
+            "type": "line",
+            "yAxisIndex": 1,
+          },
+        ],
+        "tooltip": Object {
+          "trigger": "axis",
+        },
+        "xAxis": Array [
+          Object {
+            "data": Array [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "12",
+            ],
+            "type": "category",
+          },
+        ],
+        "yAxis": Array [
+          Object {
+            "axisLabel": Object {
+              "formatter": "{value}",
+            },
+            "name": "Defect Number",
+            "type": "value",
+          },
+          Object {
+            "axisLabel": Object {
+              "formatter": "{value} %",
+            },
+            "name": "Defect Rate",
+            "type": "value",
+          },
+        ],
+      }
+    }
+    style={
+      Object {
+        "height": "500px",
+      }
+    }
+  />
+  <UniverseTable
+    field={
+      Object {
+        "undefined": "GlassNumber",
+      }
+    }
+    setDataSource={[Function]}
+  />
+</div>
+`;
+
+exports[`(Component) EchartsDefectRawData render normally if handlingPath is not exist 1`] = `
+<div
+  className="EchartsDefectRawData-container"
+>
+  <ECharts
+    config={Object {}}
+    id="chart"
+    lazyUpdate={false}
+    notMerge={false}
+    option={
+      Object {
+        "legend": Object {
+          "data": Array [
+            "Defect Number",
+            "Glass Number",
+            "Defect Rate",
+          ],
+        },
+        "series": Array [
+          Object {
+            "data": Array [
+              1961,
+              364,
+              165,
+              232,
+              256,
+              767,
+              1356,
+              1622,
+              326,
+              200,
+              64,
+              533,
+            ],
+            "name": "Defect Number",
+            "type": "bar",
+          },
+          Object {
+            "data": Array [
+              26,
+              59,
+              90,
+              264,
+              287,
+              707,
+              1756,
+              1822,
+              487,
+              188,
+              3460,
+              2453,
+            ],
+            "name": "Glass Number",
+            "type": "bar",
+          },
+          Object {
+            "data": Array [
+              206,
+              227,
+              339,
+              459,
+              639,
+              102,
+              203,
+              234,
+              230,
+              165,
+              120,
+              620,
+            ],
+            "name": "Defect Rate",
+            "type": "line",
+            "yAxisIndex": 1,
+          },
+        ],
+        "tooltip": Object {
+          "trigger": "axis",
+        },
+        "xAxis": Array [
+          Object {
+            "data": Array [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "12",
+            ],
+            "type": "category",
+          },
+        ],
+        "yAxis": Array [
+          Object {
+            "axisLabel": Object {
+              "formatter": "{value}",
+            },
+            "name": "Defect Number",
+            "type": "value",
+          },
+          Object {
+            "axisLabel": Object {
+              "formatter": "{value} %",
+            },
+            "name": "Defect Rate",
+            "type": "value",
+          },
+        ],
+      }
+    }
+    style={
+      Object {
+        "height": "500px",
+      }
+    }
+  />
+  <UniverseTable
+    field={
+      Object {
+        "undefined": "GlassNumber",
+      }
+    }
+    setDataSource={[Function]}
+  />
+</div>
+`;

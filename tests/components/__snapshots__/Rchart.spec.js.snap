@@ -1,0 +1,329 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) Rchart if Rchart "did" exist  1`] = `
+<div
+  className="DefectRate-container"
+>
+  <div
+    style={
+      Object {
+        "color": "#337ab7",
+        "fontSize": "16px",
+        "fontWeight": "bold",
+      }
+    }
+  >
+    暂无数据
+  </div>
+</div>
+`;
+
+exports[`(Component) Rchart render if Rchart not exist  1`] = `
+<div
+  className="Rchart-container"
+>
+  <ECharts
+    config={Object {}}
+    id="chart"
+    lazyUpdate={false}
+    notMerge={false}
+    option={
+      Object {
+        "grid": Object {
+          "x": 100,
+          "x2": 100,
+          "y": 50,
+          "y2": 100,
+        },
+        "series": Array [
+          Object {
+            "data": Array [
+              "4.25",
+              "4.25",
+            ],
+            "itemStyle": Object {
+              "normal": Object {
+                "color": "green",
+              },
+            },
+            "lineStyle": Object {
+              "normal": Object {
+                "color": "#a1683f",
+              },
+            },
+            "markLine": Object {
+              "data": Array [
+                Object {
+                  "itemStyle": Object {
+                    "normal": Object {
+                      "color": "blue",
+                      "label": Object {
+                        "formatter": "UCL",
+                      },
+                    },
+                  },
+                  "yAxis": 1.24,
+                },
+                Object {
+                  "itemStyle": Object {
+                    "normal": Object {
+                      "color": "#000",
+                      "label": Object {
+                        "formatter": "CL",
+                      },
+                    },
+                  },
+                  "yAxis": 0.8,
+                },
+                Object {
+                  "itemStyle": Object {
+                    "normal": Object {
+                      "color": "blue",
+                      "label": Object {
+                        "formatter": "LCL",
+                      },
+                    },
+                  },
+                  "yAxis": 0,
+                },
+              ],
+              "itemStyle": Object {
+                "normal": Object {
+                  "lineStyle": Object {
+                    "type": "solid",
+                  },
+                },
+              },
+              "symbol": "none",
+              "tooltip": Object {
+                "show": false,
+              },
+            },
+            "name": "数值",
+            "symbol": "circle",
+            "symbolSize": 8,
+            "type": "line",
+          },
+        ],
+        "title": Object {
+          "text": "R Chart",
+          "textStyle": Object {
+            "color": "#337ab7",
+          },
+        },
+        "tooltip": Object {
+          "formatter": [Function],
+          "trigger": "axis",
+        },
+        "xAxis": Array [
+          Object {
+            "axisLabel": Object {
+              "interval": 0,
+              "rotate": 45,
+            },
+            "boundaryGap": false,
+            "data": Array [
+              "2017-04-05 08:25:00",
+              "2017-04-05 08:25:00",
+            ],
+            "type": "category",
+          },
+        ],
+        "yAxis": Array [
+          Object {
+            "axisLabel": Object {
+              "formatter": "{value}",
+            },
+            "max": 3,
+            "min": 0,
+            "splitLine": Object {
+              "show": false,
+            },
+            "type": "value",
+          },
+        ],
+      }
+    }
+    style={
+      Object {
+        "height": "450px",
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    X轴： 时间
+  </div>
+  <div
+    className="yy"
+    style={
+      Object {
+        "position": "absolute",
+        "top": "70%",
+      }
+    }
+  >
+    Y轴： 数值
+  </div>
+</div>
+`;
+
+exports[`(Component) Rchart render if Rchart not exist  1`] = `
+<div
+  className="Rchart-container"
+>
+  <ECharts
+    config={Object {}}
+    id="chart"
+    lazyUpdate={false}
+    notMerge={false}
+    option={
+      Object {
+        "grid": Object {
+          "x": 100,
+          "x2": 100,
+          "y": 50,
+          "y2": 100,
+        },
+        "series": Array [
+          Object {
+            "data": Array [
+              "4.25",
+              "4.25",
+            ],
+            "itemStyle": Object {
+              "normal": Object {
+                "color": "green",
+              },
+            },
+            "lineStyle": Object {
+              "normal": Object {
+                "color": "#a1683f",
+              },
+            },
+            "markLine": Object {
+              "data": Array [
+                Object {
+                  "itemStyle": Object {
+                    "normal": Object {
+                      "color": "blue",
+                      "label": Object {
+                        "formatter": "UCL",
+                      },
+                    },
+                  },
+                  "yAxis": 1.24,
+                },
+                Object {
+                  "itemStyle": Object {
+                    "normal": Object {
+                      "color": "#000",
+                      "label": Object {
+                        "formatter": "CL",
+                      },
+                    },
+                  },
+                  "yAxis": 0.8,
+                },
+                Object {
+                  "itemStyle": Object {
+                    "normal": Object {
+                      "color": "blue",
+                      "label": Object {
+                        "formatter": "LCL",
+                      },
+                    },
+                  },
+                  "yAxis": 0,
+                },
+              ],
+              "itemStyle": Object {
+                "normal": Object {
+                  "lineStyle": Object {
+                    "type": "solid",
+                  },
+                },
+              },
+              "symbol": "none",
+              "tooltip": Object {
+                "show": false,
+              },
+            },
+            "name": "数值",
+            "symbol": "circle",
+            "symbolSize": 8,
+            "type": "line",
+          },
+        ],
+        "title": Object {
+          "text": "R Chart",
+          "textStyle": Object {
+            "color": "#337ab7",
+          },
+        },
+        "tooltip": Object {
+          "formatter": [Function],
+          "trigger": "axis",
+        },
+        "xAxis": Array [
+          Object {
+            "axisLabel": Object {
+              "interval": 0,
+              "rotate": 45,
+            },
+            "boundaryGap": false,
+            "data": Array [
+              "2017-04-05 08:25:00",
+              "2017-04-05 08:25:00",
+            ],
+            "type": "category",
+          },
+        ],
+        "yAxis": Array [
+          Object {
+            "axisLabel": Object {
+              "formatter": "{value}",
+            },
+            "max": 3,
+            "min": 0,
+            "splitLine": Object {
+              "show": false,
+            },
+            "type": "value",
+          },
+        ],
+      }
+    }
+    style={
+      Object {
+        "height": "450px",
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    X轴： 时间
+  </div>
+  <div
+    className="yy"
+    style={
+      Object {
+        "position": "absolute",
+        "top": "70%",
+      }
+    }
+  >
+    Y轴： 数值
+  </div>
+</div>
+`;

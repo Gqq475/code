@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) DefectJudgeZone render normally 1`] = `
+<div
+  className="DefectJudgeZone-container"
+>
+  <div
+    className="main"
+  >
+    <div
+      className="picContainer"
+    >
+      <span
+        className="pt-icon-standard pt-icon-info-sign picInfo"
+        onClick={[Function]}
+      />
+      <label
+        className="pt-control pt-checkbox .modifier"
+      >
+        <span>
+          Defect ID: 
+          1
+        </span>
+        <img
+          className="pic"
+          src="http://172.22.35.188/doc/qms/sample_defect_image/TPDPD.jpg"
+        />
+      </label>
+      <div
+        className="defectCode"
+      >
+        TPDPD
+      </div>
+    </div>
+  </div>
+  <div
+    className="info"
+  >
+    <DefectCodeTabs
+      handleSelectCode={[Function]}
+    />
+  </div>
+</div>
+`;

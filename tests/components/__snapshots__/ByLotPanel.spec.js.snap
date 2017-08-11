@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ByLotPanel render normally 1`] = `
+<div
+  className="ByLotPanel-container"
+>
+  <div
+    className="btn-container"
+  >
+    <Blueprint.Button
+      className="btn-submit"
+      onClick={[Function]}
+    />
+    <Blueprint.Button
+      className="btn-submit"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

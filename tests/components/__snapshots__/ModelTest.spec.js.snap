@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ModelTest render normally 1`] = `
+<div
+  className="ModelTest-container"
+>
+  <Connect(ModelTestList)
+    setDetail={[Function]}
+  />
+  <Connect(ModelTestDetail)
+    dataDetail={Object {}}
+  />
+</div>
+`;

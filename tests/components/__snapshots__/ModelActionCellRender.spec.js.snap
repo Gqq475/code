@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ActionCellRender render normally 1`] = `
+<div
+  className="cn"
+>
+  <button
+    className="pt-button pt-minimal pt-icon-delete"
+    onClick={[Function]}
+    title="Delete"
+  />
+  <Connect(DeleteDialog)
+    id="1"
+    isOpen={false}
+    toggleDialog={[Function]}
+  />
+</div>
+`;

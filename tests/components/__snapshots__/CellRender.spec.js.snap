@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) CellRender render normally 1`] = `
+<div
+  className="cn"
+>
+  <div
+    className="cell"
+    style={
+      Object {
+        "background": "#4A90E2",
+      }
+    }
+  >
+    Ready
+  </div>
+</div>
+`;

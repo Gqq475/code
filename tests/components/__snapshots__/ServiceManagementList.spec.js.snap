@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ServiceManagementList render normally 1`] = `
+<div
+  className="ServiceManagementList-container"
+>
+  <section
+    className="title clear"
+  >
+    <h4
+      className="left"
+    >
+      Service List
+    </h4>
+  </section>
+  <section
+    className="ag-table ag-fresh"
+  >
+    <Component
+      columnDefs={
+        Array [
+          Object {
+            "cellClass": "cn",
+            "field": "id",
+            "headerName": "Service ID",
+            "suppressMovable": true,
+            "width": 90,
+          },
+          Object {
+            "cellClass": "cn",
+            "field": "name",
+            "headerName": "Service Name",
+            "suppressMovable": true,
+            "suppressSorting": true,
+          },
+          Object {
+            "cellRendererFramework": [Function],
+            "field": "status",
+            "headerName": "Status-All",
+            "suppressMovable": true,
+          },
+          Object {
+            "cellClass": "cn",
+            "field": "modelId",
+            "headerName": "Model ID",
+            "suppressMovable": true,
+            "width": 77,
+          },
+          Object {
+            "cellClass": "cn",
+            "field": "dataSource",
+            "headerName": "Data Source",
+            "suppressMovable": true,
+            "width": 150,
+          },
+          Object {
+            "cellClass": "cn",
+            "field": "createTime",
+            "headerName": "Create Time",
+            "sort": "desc",
+            "suppressMovable": true,
+            "width": 180,
+          },
+          Object {
+            "cellRendererFramework": [Function],
+            "field": "status",
+            "headerName": "Action",
+            "suppressMovable": true,
+            "suppressSorting": true,
+            "width": 180,
+          },
+        ]
+      }
+      datasource={
+        Object {
+          "getRows": [Function],
+          "rowCount": 1,
+        }
+      }
+      enableSorting={true}
+      onGridReady={[Function]}
+      onRowClicked={[Function]}
+      paginationPageSize={10}
+      rowModelType="pagination"
+      rowSelection="single"
+      sortingOrder={
+        Array [
+          "desc",
+          "asc",
+        ]
+      }
+    />
+  </section>
+</div>
+`;

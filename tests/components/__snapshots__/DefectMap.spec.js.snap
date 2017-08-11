@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) DefectMap render normally 1`] = `
+<div
+  className="DefectMap-container"
+>
+  <Tabs
+    initialSelectedTabIndex={0}
+  >
+    <TabList>
+      <Tab
+        isDisabled={false}
+        isSelected={false}
+      >
+        ByGlass
+      </Tab>
+      <Tab
+        isDisabled={false}
+        isSelected={false}
+      >
+        ByLot
+      </Tab>
+    </TabList>
+    <TabPanel>
+      <Connect(ByGlassPanel)
+        accessSS={[Function]}
+        data={
+          Object {
+            "dmloading": undefined,
+          }
+        }
+        toggleSS={[Function]}
+      />
+    </TabPanel>
+    <TabPanel>
+      <Connect(ByLotPanel)
+        accessSS={[Function]}
+        data={
+          Object {
+            "dmloading": undefined,
+          }
+        }
+        toggleSS={[Function]}
+      />
+    </TabPanel>
+  </Tabs>
+</div>
+`;

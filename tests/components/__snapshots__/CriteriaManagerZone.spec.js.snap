@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) CriteriaManagerZone render normally 1`] = `
+<div
+  className="CriteriaManagerZone-container"
+>
+  <span
+    className="header"
+  >
+    <div
+      className="info"
+    >
+      <span>
+        规则详情
+      </span>
+      <strong>
+        ID 
+        1
+      </strong>
+    </div>
+    <div>
+      <Blueprint.Button
+        className="pt-intent-primary"
+      >
+        编辑
+      </Blueprint.Button>
+    </div>
+  </span>
+  <section
+    className="top"
+  >
+    <div
+      className="enabled-container"
+    >
+      <Blueprint.Switch
+        className="pt-large"
+        label="启用"
+        onChange={[Function]}
+      />
+    </div>
+    <div
+      className="slider-container"
+    >
+      <span>
+         
+      </span>
+      <Slider
+        disabled={false}
+        initialValue={0}
+        labelStepSize={1}
+        max={9}
+        min={1}
+        onChange={[Function]}
+        showTrackFill={true}
+        stepSize={1}
+        value={3}
+      />
+    </div>
+    <div
+      className="alarmAmount"
+    >
+      <strong>
+        10
+      </strong>
+       告警
+    </div>
+  </section>
+  <div
+    className="content"
+  >
+    <DetailLeft
+      data={
+        Object {
+          "id": 1,
+        }
+      }
+    />
+    <DetailCenter
+      data={
+        Object {
+          "id": 1,
+        }
+      }
+    />
+    <DetailRight
+      data={
+        Object {
+          "id": 1,
+        }
+      }
+    />
+  </div>
+</div>
+`;

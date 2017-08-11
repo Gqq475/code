@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) QCA render path is cpk normally 1`] = `
+<div
+  className="DRTM-container"
+/>
+`;
+
+exports[`(Component) QCA render path is dashboard normally 1`] = `
+<div
+  className="DRTM-container"
+>
+  <Dashboard />
+</div>
+`;
+
+exports[`(Component) QCA render path is defectMap normally 1`] = `
+<div
+  className="DRTM-container"
+>
+  <DefectMap
+    data={
+      Object {
+        "a": Object {
+          "a": "23",
+        },
+        "b": Object {
+          "b": "23",
+        },
+      }
+    }
+    getDefectByGlassId={[Function]}
+    getDefectByLotId={[Function]}
+    resetDM={[Function]}
+  />
+</div>
+`;
+
+exports[`(Component) QCA render path is echarts normally 1`] = `
+<div
+  className="DRTM-container"
+>
+  <Echarts
+    data={
+      Object {
+        "a": Object {
+          "a": "23",
+        },
+        "b": Object {
+          "b": "23",
+        },
+      }
+    }
+    getEquipmentPort={[Function]}
+    getFromTo={[Function]}
+    getHandlingPath={[Function]}
+    getSTK={[Function]}
+  />
+</div>
+`;
+
+exports[`(Component) QCA render path is stk normally 1`] = `
+<div
+  className="DRTM-container"
+>
+  <STK />
+</div>
+`;
+
+exports[`(Component) QCA render path is cpk normally 1`] = `
+<div
+  className="DRTM-container"
+/>
+`;
+
+exports[`(Component) QCA render path is dashboard normally 1`] = `
+<div
+  className="DRTM-container"
+>
+  <Dashboard />
+</div>
+`;
+
+exports[`(Component) QCA render path is defectMap normally 1`] = `
+<div
+  className="DRTM-container"
+>
+  <DefectMap
+    data={
+      Object {
+        "a": Object {
+          "a": "23",
+        },
+        "b": Object {
+          "b": "23",
+        },
+      }
+    }
+    getDefectByGlassId={[Function]}
+    getDefectByLotId={[Function]}
+    resetDM={[Function]}
+  />
+</div>
+`;
+
+exports[`(Component) QCA render path is echarts normally 1`] = `
+<div
+  className="DRTM-container"
+>
+  <Echarts
+    data={
+      Object {
+        "a": Object {
+          "a": "23",
+        },
+        "b": Object {
+          "b": "23",
+        },
+      }
+    }
+    getEquipmentPort={[Function]}
+    getFromTo={[Function]}
+    getHandlingPath={[Function]}
+    getSTK={[Function]}
+  />
+</div>
+`;
+
+exports[`(Component) QCA render path is stk normally 1`] = `
+<div
+  className="DRTM-container"
+>
+  <STK />
+</div>
+`;

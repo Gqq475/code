@@ -1,0 +1,337 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ModelDetail render normally 1`] = `
+<div
+  className="ModelDetail-container"
+>
+  <div
+    style={
+      Object {
+        "width": "45%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "fontSize": "20px",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      <div
+        className="textField"
+      >
+        <div
+          className="key"
+        >
+          Name：
+        </div>
+        <div
+          className="value"
+        />
+      </div>
+    </div>
+    <div
+      className="textField"
+    >
+      <div
+        className="key"
+      >
+        Submitted：
+      </div>
+      <div
+        className="value"
+      />
+    </div>
+    <div
+      className="textField"
+    >
+      <div
+        className="key"
+      >
+        Status：
+      </div>
+      <div
+        className="value"
+      />
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "border": "2px solid #d7d7d7",
+          "borderRadius": "4px",
+          "margin": "20px 0",
+          "padding": "30px 50px",
+          "position": "relative",
+          "width": "45%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "left": "5px",
+            "position": "absolute",
+            "top": "-10px",
+          }
+        }
+      >
+        Details
+      </div>
+      <div
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Defect images size
+      </div>
+      <div
+        style={
+          Object {
+            "paddingLeft": "40px",
+          }
+        }
+      >
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Training：
+          </div>
+          <div
+            className="value"
+          >
+            undefined images
+          </div>
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Validation：
+          </div>
+          <div
+            className="value"
+          >
+            undefined images
+          </div>
+        </div>
+        <Blueprint.Button
+          className="btn-submit"
+          disabled="false"
+          style={
+            Object {
+              "position": "absolute",
+              "top": "90px",
+            }
+          }
+        >
+          Analysis
+        </Blueprint.Button>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Test：
+          </div>
+          <div
+            className="value"
+          >
+            undefined images
+          </div>
+        </div>
+        <Blueprint.Button
+          className="btn-submit"
+          disabled="false"
+          style={
+            Object {
+              "position": "absolute",
+              "top": "126px",
+            }
+          }
+        >
+          Analysis
+        </Blueprint.Button>
+      </div>
+      <div
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Defect Types
+      </div>
+      <div
+        style={
+          Object {
+            "paddingLeft": "40px",
+          }
+        }
+      >
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Total trained：
+          </div>
+          <div
+            className="value"
+          >
+            3
+          </div>
+        </div>
+        <Blueprint.Button
+          className="btn-submit"
+          disabled="false"
+          style={
+            Object {
+              "position": "absolute",
+              "top": "180px",
+            }
+          }
+        >
+          Details
+        </Blueprint.Button>
+      </div>
+      <div
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Images Data Resource
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "20px 40px",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Model Save Path
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "20px 40px",
+          }
+        }
+      />
+    </div>
+    <div
+      style={
+        Object {
+          "border": "2px solid #d7d7d7",
+          "borderRadius": "4px",
+          "height": "220px",
+          "margin": "20px 0",
+          "padding": "50px",
+          "position": "relative",
+          "width": "45%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "left": "5px",
+            "position": "absolute",
+            "top": "-10px",
+          }
+        }
+      >
+        Properties
+      </div>
+      <div
+        className="textField"
+      >
+        <div
+          className="key"
+        >
+          产品：
+        </div>
+        <div
+          className="value"
+        />
+      </div>
+      <div
+        className="textField"
+      >
+        <div
+          className="key"
+        >
+          站点：
+        </div>
+        <div
+          className="value"
+        />
+      </div>
+      <div
+        className="textField"
+      >
+        <div
+          className="key"
+        >
+          线别：
+        </div>
+        <div
+          className="value"
+        />
+      </div>
+      <div
+        className="textField"
+      >
+        <div
+          className="key"
+        >
+          机台：
+        </div>
+        <div
+          className="value"
+        />
+      </div>
+      <Blueprint.Button
+        className="btn-submit"
+        onClick={[Function]}
+      >
+        Edit
+      </Blueprint.Button>
+      <EditDialog
+        isOpen={false}
+        toggleDialog={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

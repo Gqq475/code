@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) AlarmRate render normally 1`] = `
+<div
+  className="AlarmRate-container"
+>
+  <iframe
+    className="iframe"
+    src=""
+  />
+</div>
+`;

@@ -1,0 +1,51 @@
+.LabelingTool-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  height: 100%;
+  background: #fff;
+  ul,li {
+    margin: 0px;
+    padding: 0px;
+  }
+  .btn {
+    width: 80px;
+    margin-bottom: 15px;
+  }
+  .btnFile {
+    margin: 0px 15px 15px 0px;
+    width: 80px;
+  }
+  .imgList{
+    width: 60%;
+	  float: left;
+    overflow: hidden;
+    border: 1px solid #0087DC;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 0 0 10px 0;
+    height: 215px;
+  }
+  .imgItem {
+    padding: 5px 0px 5px 5px;
+    cursor: pointer;
+  }
+  .active {
+    background:#b0e0e6;
+    color: #666;
+  }
+  .decidsion {
+    width: 39%;
+    float: right;
+  }
+  .decidsion .btnGroup {
+    float: right;
+  }
+  .decidsion .category {
+    margin-right: 10px;
+  }
+  .decidsion button{
+    width: 80px;
+  }
+}

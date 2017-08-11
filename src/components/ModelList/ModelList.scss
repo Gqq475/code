@@ -1,0 +1,54 @@
+.ModelList-container {
+  // width: 80%;
+  border-radius: 5px;
+  padding: 0 0 10px 0;
+  position: relative;
+  // height: 360px;
+  border: 1px solid #0087DC;
+
+  .ag-table{
+    height: 330px;
+  }
+
+  .cell {
+    border-radius: 5px;
+    color: #fff;
+    background: #9B9B9B;
+    display: inline-block;
+    width: 100px;
+    overflow: hidden;
+    font-size: 12px
+  }
+
+  .progress {
+    width: initial;
+    margin-left: 5px;
+    padding: 0 5px;
+    background: #2887C3;
+    border-radius: 0;
+  }
+  .cn{
+    text-align: center;
+  }
+  .status{
+    padding: 5px 10px;
+    border-radius: 5px 0 5px 0;
+    color: #fff;
+    background: #9B9B9B;
+    &.status-s{
+      background: #7ED321;
+    }
+
+    &.status-d{
+      background: #D0021B;
+    }
+
+    &.status-w{
+      background: #F5A623;
+    }
+
+    &.status-p{
+      background: #4A90E2;
+    }
+  }
+}

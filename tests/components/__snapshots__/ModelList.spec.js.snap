@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ModelList render normally 1`] = `
+<div
+  className="ModelList-container"
+>
+  <section
+    className="ag-table ag-fresh"
+  >
+    <Component
+      columnDefs={
+        Array [
+          Object {
+            "cellClass": "cn",
+            "field": "id",
+            "headerName": "模型编号",
+            "suppressMovable": true,
+            "width": 120,
+          },
+          Object {
+            "cellClass": "cn",
+            "field": "name",
+            "headerName": "模型名称",
+            "suppressMovable": true,
+            "width": 120,
+          },
+          Object {
+            "cellClass": "cn",
+            "field": "status",
+            "headerName": "状态",
+            "suppressMovable": true,
+            "width": 120,
+          },
+          Object {
+            "cellClass": "cn",
+            "field": "productCode",
+            "headerName": "产品",
+            "suppressMovable": true,
+            "width": 120,
+          },
+          Object {
+            "cellClass": "cn",
+            "field": "operationCode",
+            "headerName": "站点",
+            "suppressMovable": true,
+            "width": 120,
+          },
+          Object {
+            "cellClass": "cn",
+            "field": "lineCode",
+            "headerName": "线别",
+            "suppressMovable": true,
+            "width": 120,
+          },
+          Object {
+            "cellClass": "cn",
+            "field": "eqCode",
+            "headerName": "机台",
+            "suppressMovable": true,
+            "width": 120,
+          },
+          Object {
+            "cellClass": "cn",
+            "field": "createTime",
+            "headerName": "创建时间",
+            "suppressMovable": true,
+            "width": 180,
+          },
+          Object {
+            "cellRendererFramework": [Function],
+            "field": "status",
+            "headerName": "操作",
+            "suppressMovable": true,
+            "suppressSorting": true,
+            "width": 80,
+          },
+        ]
+      }
+      datasource={
+        Object {
+          "getRows": [Function],
+        }
+      }
+      enableSorting={true}
+      onRowClicked={[Function]}
+      paginationPageSize={10}
+      rowModelType="pagination"
+      rowSelection="single"
+      sortingOrder={
+        Array [
+          "desc",
+          "asc",
+        ]
+      }
+    />
+  </section>
+</div>
+`;

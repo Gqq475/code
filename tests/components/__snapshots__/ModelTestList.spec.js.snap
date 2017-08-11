@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ModelTestList render normally 1`] = `
+<div
+  className="ModelTestList-container"
+>
+  <section
+    className="ag-table ag-fresh"
+  >
+    <Component
+      columnDefs={
+        Array [
+          Object {
+            "cellClass": "cn",
+            "field": "id",
+            "headerName": "模型编号",
+            "suppressMovable": true,
+            "width": 80,
+          },
+          Object {
+            "cellClass": "cn",
+            "field": "name",
+            "headerName": "模型名称",
+            "suppressMovable": true,
+            "width": 100,
+          },
+          Object {
+            "cellClass": "cn",
+            "field": "status",
+            "headerName": "状态",
+            "suppressMovable": true,
+            "width": 100,
+          },
+          Object {
+            "cellClass": "cn",
+            "field": "productCode",
+            "headerName": "产品",
+            "suppressMovable": true,
+            "width": 180,
+          },
+          Object {
+            "cellClass": "cn",
+            "field": "operationCode",
+            "headerName": "站点",
+            "suppressMovable": true,
+            "width": 180,
+          },
+          Object {
+            "cellClass": "cn",
+            "field": "lineCode",
+            "headerName": "线别",
+            "suppressMovable": true,
+            "width": 180,
+          },
+          Object {
+            "cellClass": "cn",
+            "field": "eqCode",
+            "headerName": "机台",
+            "suppressMovable": true,
+            "width": 180,
+          },
+          Object {
+            "cellClass": "cn",
+            "field": "createTime",
+            "headerName": "创建时间",
+            "suppressMovable": true,
+            "width": 180,
+          },
+          Object {
+            "cellClass": "cn",
+            "field": "updateTime",
+            "headerName": "更新时间",
+            "suppressMovable": true,
+            "width": 180,
+          },
+        ]
+      }
+      enableSorting={true}
+      onRowClicked={[Function]}
+      rowData={Array []}
+      rowSelection="single"
+    />
+  </section>
+</div>
+`;

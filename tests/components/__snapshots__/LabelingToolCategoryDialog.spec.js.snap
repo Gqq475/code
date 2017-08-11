@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) LabelingToolCategoryDialog render normally 1`] = `
+<div
+  className="LabelingToolCategoryDialog-container"
+>
+  <Dialog
+    className="dialog"
+    isOpen={false}
+  >
+    <div
+      className="header"
+    >
+      <h6
+        className="headerTitle"
+      >
+        类别修改
+      </h6>
+    </div>
+    <div
+      className="dialogBody"
+    >
+      <div
+        className="leftBox"
+      >
+        <LabelingToolDefectType
+          isDialog={true}
+        />
+        <Blueprint.Button
+          className="pt-button pt-intent-primary btnEdit"
+          onClick={[Function]}
+        >
+          Delete
+        </Blueprint.Button>
+      </div>
+      <div
+        className="rightBox"
+      >
+        <label
+          className="pt-label pt-inline filter"
+        >
+          厂别
+          <div
+            className="pt-select"
+          >
+            <select
+              className="select"
+              onChange={[Function]}
+            >
+              <option
+                value="TFT"
+              >
+                TFT
+              </option>
+              <option
+                value="CF"
+              >
+                CF
+              </option>
+              <option
+                value="Cell"
+              >
+                Cell
+              </option>
+              <option
+                value="Module"
+              >
+                Module
+              </option>
+            </select>
+          </div>
+        </label>
+        <label
+          className="pt-label pt-inline filter"
+        >
+          部门
+          <div
+            className="pt-select"
+          >
+            <select
+              className="select"
+              onChange={[Function]}
+            >
+              <option
+                value="General"
+              >
+                General
+              </option>
+              <option
+                value="Photo"
+              >
+                Photo
+              </option>
+              <option
+                value="ThinFilm"
+              >
+                Thin Film
+              </option>
+              <option
+                value="Etch"
+              >
+                Etch
+              </option>
+              <option
+                value="Testing"
+              >
+                Testing
+              </option>
+              <option
+                value="CF"
+              >
+                CF
+              </option>
+            </select>
+          </div>
+        </label>
+        <label
+          className="pt-label pt-inline filter"
+        >
+          类别
+          <input
+            className="pt-select"
+            onChange={[Function]}
+            type="text"
+          />
+        </label>
+      </div>
+      <div
+        className="btnGroup"
+      >
+        <Blueprint.Button
+          className="pt-button pt-intent-primary btnEdit"
+          onClick={[Function]}
+        >
+          Add
+        </Blueprint.Button>
+        <Blueprint.Button
+          className="btnCancel"
+        />
+      </div>
+    </div>
+  </Dialog>
+</div>
+`;

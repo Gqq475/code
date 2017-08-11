@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ReLogin render normally 1`] = `
+<div
+  className="ReLogin-container"
+>
+  <Dialog
+    className="dialog"
+    isOpen={true}
+  >
+    <div
+      className="header"
+    >
+      <h6
+        className="headerTitle"
+      >
+        登录
+      </h6>
+    </div>
+    <div
+      className="dialogBody"
+    >
+      <div
+        className="form"
+      >
+        <form
+          className="login-form"
+        >
+          <center
+            className="message"
+          >
+            BIF-Quality
+          </center>
+          <br />
+          <label
+            className="submessage"
+          >
+            请登录
+          </label>
+          <span
+            style={
+              Object {
+                "color": "red",
+              }
+            }
+          />
+          <br />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="账号"
+            type="text"
+            value=""
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="密码"
+            type="password"
+            value=""
+          />
+          <br />
+          <Blueprint.Checkbox
+            checked={true}
+            className="checkbox"
+            label="记住我"
+            onChange={[Function]}
+          />
+          <Blueprint.Button
+            className="pt-intent-primary pt-large"
+            onClick={[Function]}
+          >
+            登录
+          </Blueprint.Button>
+          <div
+            className="create"
+          >
+            注册账号
+          </div>
+        </form>
+      </div>
+    </div>
+  </Dialog>
+</div>
+`;

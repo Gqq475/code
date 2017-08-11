@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) AlarmHistory render normally 1`] = `
+<div
+  className="AlarmHistory-container"
+>
+  <UniverseTable
+    data={
+      Array [
+        Object {
+          "calEndTime": "May 16, 2017 4:34:36 AM",
+          "calStartTime": "May 16, 2017 4:34:36 AM",
+          "comments": "已通知PM吴金原",
+          "condi": "",
+          "createTime": "May 16, 2017 4:34:36 AM",
+          "glassCode": "UY478BN",
+          "id": 256,
+          "level": 2,
+          "lineCode": "PIPR01",
+          "ocapCode": "",
+          "ooc": 5,
+          "oos": 8,
+          "operationCode": "2100",
+          "productCode": "SV509-CF",
+          "realValue": "3片，平均值12.3333",
+          "status": "new",
+          "subEqCode": "PIN01",
+          "summary": "",
+          "type": "alarm",
+          "updateBy": "10118436",
+          "updateTime": "May 16, 2017 4:34:36 AM",
+        },
+      ]
+    }
+    field={
+      Object {
+        "undefined": "updateTime",
+      }
+    }
+    handleClick={[Function]}
+  />
+  <Connect(AlarmDetail)
+    data={
+      Array [
+        Object {
+          "calEndTime": "May 16, 2017 4:34:36 AM",
+          "calStartTime": "May 16, 2017 4:34:36 AM",
+          "comments": "已通知PM吴金原",
+          "condi": "",
+          "createTime": "May 16, 2017 4:34:36 AM",
+          "glassCode": "UY478BN",
+          "id": 256,
+          "level": 2,
+          "lineCode": "PIPR01",
+          "ocapCode": "",
+          "ooc": 5,
+          "oos": 8,
+          "operationCode": "2100",
+          "productCode": "SV509-CF",
+          "realValue": "3片，平均值12.3333",
+          "status": "new",
+          "subEqCode": "PIN01",
+          "summary": "",
+          "type": "alarm",
+          "updateBy": "10118436",
+          "updateTime": "May 16, 2017 4:34:36 AM",
+        },
+      ]
+    }
+    id={0}
+  />
+</div>
+`;

@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) DetailCenter render normally 1`] = `
+<div
+  className="center-container"
+>
+  <section
+    className="title"
+  >
+    2. Condition
+  </section>
+  <label
+    className="pt-label pt-inline"
+  >
+    OOC
+    <input
+      className="pt-input"
+      defaultValue="1"
+    />
+  </label>
+  <label
+    className="pt-label pt-inline"
+  >
+    OOS
+    <input
+      className="pt-input"
+      defaultValue="2"
+    />
+  </label>
+  <Tabs
+    initialSelectedTabIndex={0}
+  >
+    <TabList>
+      <Tab
+        isDisabled={false}
+        isSelected={false}
+      >
+        Defect
+      </Tab>
+      <Tab
+        isDisabled={true}
+        isSelected={false}
+      >
+        Burr
+      </Tab>
+      <Tab
+        isDisabled={true}
+        isSelected={false}
+      >
+        NG/RW Rate
+      </Tab>
+      <Tab
+        isDisabled={true}
+        isSelected={false}
+      >
+        LOI
+      </Tab>
+      <Tab
+        isDisabled={true}
+        isSelected={false}
+      >
+        CCD
+      </Tab>
+    </TabList>
+    <TabPanel>
+      <div
+        className="pt-select"
+      >
+        <select>
+          <option
+            value="1"
+          >
+            扫边
+          </option>
+          <option
+            value="2"
+          >
+            Common defect
+          </option>
+          <option
+            value="3"
+          >
+            Cluster defect
+          </option>
+          <option
+            value="4"
+          >
+            Mask defect
+          </option>
+          <option
+            value="5"
+          >
+            定制化条件
+          </option>
+        </select>
+      </div>
+      <div
+        className="total-defect"
+      >
+        <Blueprint.Checkbox
+          defaultChecked={true}
+        >
+          Total defect
+        </Blueprint.Checkbox>
+        <ul
+          className="ul"
+        >
+          <li
+            className="defect-size"
+          >
+            <Blueprint.Checkbox
+              defaultChecked={false}
+              disabled={false}
+            >
+              Defect size
+            </Blueprint.Checkbox>
+            <ul
+              className="ul"
+            >
+              <Blueprint.Checkbox
+                className="pt-inline checkbox-group"
+                disabled={false}
+              >
+                SS
+              </Blueprint.Checkbox>
+              <Blueprint.Checkbox
+                className="pt-inline checkbox-group"
+                disabled={false}
+              >
+                S
+              </Blueprint.Checkbox>
+              <Blueprint.Checkbox
+                className="pt-inline checkbox-group"
+                disabled={false}
+              >
+                M
+              </Blueprint.Checkbox>
+              <Blueprint.Checkbox
+                className="pt-inline checkbox-group"
+                disabled={false}
+              >
+                L
+              </Blueprint.Checkbox>
+              <Blueprint.Checkbox
+                className="pt-inline checkbox-group"
+                disabled={false}
+              >
+                O
+              </Blueprint.Checkbox>
+            </ul>
+          </li>
+          <li>
+            <label
+              className="pt-label"
+            >
+              <Blueprint.Checkbox
+                disabled={false}
+              >
+                Defect Code (用逗号分隔)
+              </Blueprint.Checkbox>
+              <input
+                className="pt-input"
+                disabled={false}
+              />
+            </label>
+          </li>
+          <li>
+            <label
+              className="pt-label"
+            >
+              <Blueprint.Checkbox
+                disabled={false}
+              >
+                Judge defect Code (用逗号分隔)
+              </Blueprint.Checkbox>
+              <input
+                className="pt-input"
+                disabled={true}
+              />
+            </label>
+          </li>
+        </ul>
+      </div>
+    </TabPanel>
+    <TabPanel />
+    <TabPanel />
+    <TabPanel />
+    <TabPanel />
+  </Tabs>
+</div>
+`;

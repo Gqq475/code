@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) LabelingTool render normally 1`] = `
+<div
+  className="LabelingTool-container"
+>
+  <div>
+    <Blueprint.Button
+      className="pt-button pt-intent-primary btnFile"
+      onClick={[Function]}
+    >
+      文件
+    </Blueprint.Button>
+    <Blueprint.Button
+      className="pt-button pt-intent-primary btn"
+      disabled={true}
+    >
+      文件夹
+    </Blueprint.Button>
+  </div>
+  <div
+    className="imgList"
+  >
+    <ul>
+      <li
+        className="imgItem"
+        data-id={1}
+        data-index={0}
+        onClick={[Function]}
+      >
+        Image 01
+      </li>
+    </ul>
+  </div>
+  <LabelingToolDefectCodeList />
+  <LabelingToolImagesZone
+    heightOfOriginalImage={300}
+    widthOfOriginalImage={400}
+  />
+  <div
+    className="decidsion"
+  >
+    <LabelingToolDefectType
+      data={
+        Object {
+          "labelingToolImageList": Array [
+            Object {
+              "createTime": "Apr 27, 2017 11:19:11 AM",
+              "depth": 10,
+              "height": 10,
+              "id": 1,
+              "name": "Image 01",
+              "path": "ttp://10.120.136.214/doc/qms/sample_defect_image/TPDPD.jpg",
+              "type": "Type 1",
+              "width": 10,
+            },
+          ],
+        }
+      }
+    />
+    <div
+      className="btnGroup"
+    >
+      <Blueprint.Button
+        className="category"
+        onClick={[Function]}
+      >
+        类别修改
+      </Blueprint.Button>
+      <Blueprint.Button
+        onClick={[Function]}
+      >
+        判定
+      </Blueprint.Button>
+      <Connect(LabelingToolCategoryDialog)
+        data={
+          Object {
+            "labelingToolImageList": Array [
+              Object {
+                "createTime": "Apr 27, 2017 11:19:11 AM",
+                "depth": 10,
+                "height": 10,
+                "id": 1,
+                "name": "Image 01",
+                "path": "ttp://10.120.136.214/doc/qms/sample_defect_image/TPDPD.jpg",
+                "type": "Type 1",
+                "width": 10,
+              },
+            ],
+          }
+        }
+        isOpen={false}
+        toggleDialog={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

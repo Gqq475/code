@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ModelTrain render normally 1`] = `
+<div
+  className="ModelTrain-container"
+>
+  <section
+    className="title clear"
+  >
+    <h4
+      className="left"
+    >
+      模型列表
+      <button
+        className="ml10 pt-button pt-intent-primary pt-icon-plus"
+        onClick={[Function]}
+        type="button"
+      />
+    </h4>
+  </section>
+  <Connect(ModelTrainList)
+    setDetail={[Function]}
+    testingDetail={false}
+    trainingDetail={false}
+  />
+  <Connect(ModelTrainDetail)
+    changeState={[Function]}
+    data={
+      Object {
+        "modelTrainList": Array [
+          Object {
+            "defectTypeCount": 1,
+            "eqCode": "TestEqCode",
+            "id": 317,
+          },
+          Object {
+            "defectTypeCount": 5,
+            "eqCode": "TestEqCode",
+            "id": 3,
+          },
+        ],
+      }
+    }
+    detailData={Object {}}
+    testingDetail={false}
+    trainingDetail={false}
+  />
+</div>
+`;

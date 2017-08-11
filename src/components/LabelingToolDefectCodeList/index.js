@@ -1,0 +1,2 @@
+import LabelingToolDefectCodeList from './LabelingToolDefectCodeList'
+export default LabelingToolDefectCodeList

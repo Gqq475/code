@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) DefectPicture render normally 1`] = `
+<div
+  style={
+    Object {
+      "backgroundImage": "url('http://10.120.136.214/doc/qms/sample_defect_image/TPDPD.jpg')",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "cover",
+      "height": "undefinedpx",
+      "margin": "0 auto",
+      "position": "absolute",
+      "width": "500px",
+    }
+  }
+>
+  <section
+    className="outerFrame"
+  >
+    <Draggable
+      allowAnyClick={false}
+      axis="both"
+      bounds={false}
+      cancel=".react-resizable-handle"
+      defaultClassName="react-draggable"
+      defaultClassNameDragged="react-draggable-dragged"
+      defaultClassNameDragging="react-draggable-dragging"
+      defaultPosition={
+        Object {
+          "x": 0,
+          "y": 0,
+        }
+      }
+      disabled={false}
+      enableUserSelectHack={true}
+      grid={null}
+      handle={null}
+      offsetParent={null}
+      onDrag={[Function]}
+      onMouseDown={[Function]}
+      onStart={[Function]}
+      onStop={[Function]}
+      position={
+        Object {
+          "x": 10.25,
+          "y": 25,
+        }
+      }
+      transform={null}
+    >
+      <Resizable
+        axis="both"
+        className="innerFrame "
+        handleSize={
+          Array [
+            20,
+            20,
+          ]
+        }
+        height={25.25}
+        lockAspectRatio={false}
+        maxConstraints={
+          Array [
+            Infinity,
+            Infinity,
+          ]
+        }
+        minConstraints={
+          Array [
+            20,
+            20,
+          ]
+        }
+        onResize={[Function]}
+        width={20.25}
+      >
+        <span
+          style={
+            Object {
+              "height": "25.25px",
+              "position": "absolute",
+              "width": "20.25px",
+            }
+          }
+        />
+      </Resizable>
+    </Draggable>
+  </section>
+</div>
+`;
+
+exports[`(Component) LabelingToolImagesZone render normally if defectPictureSource is exsit 1`] = `
+<div
+  className="LabelingToolImagesZone-container"
+>
+  <section
+    className="btnGroup"
+  >
+    <button
+      className="pt-button pt-intent-primary pt-icon-add"
+      onClick={[Function]}
+    >
+      增加标记
+    </button>
+    <button
+      className="pt-button pt-intent-primary pt-icon-search-template"
+      onClick={[Function]}
+    >
+      打开放大镜
+    </button>
+  </section>
+  <section
+    style={
+      Object {
+        "margin": "0 auto",
+        "width": "undefinedpx",
+      }
+    }
+  >
+    <span
+      className="alertMessage"
+    >
+      请先选择需要标记的图片
+    </span>
+  </section>
+</div>
+`;
+
+exports[`(Component) LabelingToolImagesZone render normally if defectPictureSource is not exist 1`] = `
+<div
+  className="LabelingToolImagesZone-container"
+>
+  <section
+    className="btnGroup"
+  >
+    <button
+      className="pt-button pt-intent-primary pt-icon-add"
+      onClick={[Function]}
+    >
+      增加标记
+    </button>
+    <button
+      className="pt-button pt-intent-primary pt-icon-search-template"
+      onClick={[Function]}
+    >
+      打开放大镜
+    </button>
+  </section>
+  <section
+    style={
+      Object {
+        "margin": "0 auto",
+        "width": "undefinedpx",
+      }
+    }
+  >
+    <Connect(DefectPicture)
+      addframe={[Function]}
+    />
+  </section>
+</div>
+`;

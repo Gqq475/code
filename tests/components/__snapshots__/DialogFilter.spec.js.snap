@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) DialogFilter render normally 1`] = `
+<div
+  className="DialogFilter-container"
+>
+  <Dialog
+    className="dialog"
+    isOpen={false}
+  >
+    <div
+      className="header"
+    >
+      <h6
+        className="headerTitle"
+      />
+      <h5
+        className="headerID"
+      >
+        ID:undefined
+      </h5>
+    </div>
+    <div
+      className="dialogBody"
+    >
+      <label
+        className="filter"
+      >
+        <div>
+          <input
+            className="pt-input"
+            onChange={[Function]}
+            type="text"
+          />
+        </div>
+      </label>
+      <label
+        className="filter"
+      >
+        <div>
+          <select
+            className="select"
+            disabled={false}
+            onChange={[Function]}
+          >
+            <option>
+              请选择
+            </option>
+            <option
+              selected={true}
+              value={1}
+            >
+              1
+            </option>
+            <option
+              selected={false}
+              value={98}
+            >
+              98
+            </option>
+          </select>
+        </div>
+      </label>
+      <label
+        className="filter"
+      >
+        <div />
+      </label>
+      <div
+        className="btnGroup"
+      >
+        <Blueprint.Button
+          className="btnCancel"
+        >
+          Cancel
+        </Blueprint.Button>
+        <Blueprint.Button
+          className="pt-button pt-intent-primary btnEdit"
+          disabled={true}
+        />
+      </div>
+    </div>
+  </Dialog>
+</div>
+`;

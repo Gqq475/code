@@ -1,0 +1,96 @@
+$border: solid 1px #d7d7d7;
+.ModelTestDetail-container {
+margin-top: 50px;
+  .progress {
+    float: right;
+    width: 50%;
+    overflow-x: auto;
+  }
+  .top {
+    height: 80px;
+    width: 100%;
+    padding: 0px 20px;
+    background-color: #f7f7f7;
+    border-bottom: solid 1px #d7d7d7;
+    border: solid 1px #d7d7d7;
+    border-radius: 4px;
+    float: left;
+    margin-right: 1%;
+    display: flex;
+    align-items: center;
+  }
+  .top-left{
+    width: 280px;
+    align-items: center;
+    margin-right: 70%;
+  }
+  .rightTraning {
+    
+  }
+  .btn {
+    width: 70px;
+    margin: 0px 5px;
+  }
+  .complete {
+    clear: left;
+  }
+  .content {
+    clear: left;
+    overflow: hidden;
+    border: $border;
+    margin-bottom: 20px;
+    // .pt-spinner .pt-no-spin .pt-large .pt-intent-primary .ModelTestDetail__spinner___2UjxU {
+    // 	border: 1px solid #f7f7f7!important;
+    // 	border-radius: 6px!important;
+    // }
+    .center {
+      width: 100%;
+      padding: 20px 80px;
+      display: flex;
+      flex-direction: space-between;
+      // border: $border;
+      // margin-bottom: 20px;
+    }
+    .left {
+      width: 25%;
+      padding-top: 20px;
+      margin: 0px auto;
+      text-align:center;
+      position: relative;
+    }
+    .state {
+      font-size: 16px;
+      // margin: 10px 0px;
+      position: absolute;
+      top: 40%;
+      left: 25%;
+    }
+    .spinner {
+      width: 40%;
+      margin-top: 5px;
+      position: absolute;
+      top: 10%;
+      left: 10%;
+    }
+    .strong {
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+    .textField {
+      padding: 10px 0;
+      display: flex;
+      justify-content: between;
+      align-items: flex-start;
+    }
+    .key {
+      margin-right: 20px;
+    }
+
+    .value {
+      word-break: break-all;
+      overflow:hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}

@@ -1,0 +1,707 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) Navbar render normally if path is drtm 1`] = `
+<div
+  className="Navbar-container"
+>
+  <nav
+    className="pt-navbar pt-dark navbar"
+  >
+    <div
+      className="pt-navbar-group pt-align-left"
+    >
+      <div
+        className="pt-navbar-heading"
+      >
+        <img
+          className="logo"
+          src="/quality03_0111-20.png"
+        />
+      </div>
+      <div
+        className="title"
+      >
+        dRTM
+      </div>
+      <section
+        className="navbar-lists"
+      >
+        <Popover
+          arrowSize={30}
+          className="button-bg"
+          content={
+            <Blueprint.Menu
+              className="menu"
+            >
+              <Link
+                className="menuItem"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/drtm/currentalarm"
+              >
+                <Blueprint.Button
+                  className="pt-menu-item pt-minimal menu-item-button"
+                />
+              </Link>
+              <Link
+                className="menuItem"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/drtm/alarmhistory"
+              >
+                <Blueprint.Button
+                  className="pt-menu-item pt-minimal menu-item-button"
+                />
+              </Link>
+              <Link
+                className="menuItem"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/drtm/criteriamanager"
+              >
+                <Blueprint.Button
+                  className="pt-menu-item pt-minimal menu-item-button"
+                />
+              </Link>
+              <Link
+                className="menuItem"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/drtm/alarmrate"
+              >
+                <Blueprint.Button
+                  className="pt-menu-item pt-minimal menu-item-button"
+                />
+              </Link>
+            </Blueprint.Menu>
+          }
+          defaultIsOpen={false}
+          hoverCloseDelay={300}
+          hoverOpenDelay={150}
+          inheritDarkTheme={true}
+          inline={false}
+          interactionKind={0}
+          isDisabled={false}
+          isModal={false}
+          popoverClassName=""
+          position={7}
+          rootElementTag="span"
+          transitionDuration={300}
+          useSmartArrowPositioning={true}
+          useSmartPositioning={false}
+        >
+          <span
+            className="button"
+          >
+            <span
+              className="pt-icon-standard pt-icon-chevron-down pt-align-right"
+            />
+          </span>
+        </Popover>
+        <Link
+          className="button button-a"
+          onlyActiveOnIndex={false}
+          style={Object {}}
+          to="/drtm/defectjudge"
+        />
+      </section>
+    </div>
+    <div
+      className="pt-navbar-group pt-align-right"
+    >
+      <span
+        className="pt-navbar-divider"
+      />
+      <div
+        style={
+          Object {
+            "display": "flex",
+          }
+        }
+      >
+        <Link
+          className="link"
+          onlyActiveOnIndex={false}
+          style={Object {}}
+          to="/qca/dashboard"
+        >
+          QCA
+        </Link>
+      </div>
+      <span
+        className="pt-navbar-divider"
+      />
+      <button
+        className="pt-button pt-minimal pt-icon-notifications"
+      />
+      <button
+        className="pt-button pt-minimal pt-icon-more"
+      />
+      <span
+        className="pt-navbar-divider"
+      />
+      <span
+        style={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+      >
+        Log out
+      </span>
+    </div>
+  </nav>
+  <SubNav
+    location="dRTM"
+    route={
+      Object {
+        "path": "drtm(/:path)",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`(Component) Navbar render normally if path is ojs 1`] = `
+<div
+  className="Navbar-container"
+>
+  <nav
+    className="pt-navbar pt-dark navbar"
+  >
+    <div
+      className="pt-navbar-group pt-align-left"
+    >
+      <div
+        className="pt-navbar-heading"
+      >
+        <img
+          className="logo"
+          src="/quality03_0111-20.png"
+        />
+      </div>
+      <div
+        className="title"
+      >
+        SADJ
+      </div>
+      <section
+        className="navbar-lists"
+      >
+        <Link
+          className="button button-a"
+          onlyActiveOnIndex={false}
+          style={Object {}}
+          to="/ojs/servicemanagement"
+        />
+        <Link
+          className="button button-a"
+          onlyActiveOnIndex={false}
+          style={Object {}}
+          to="/ojs/autodefectjudge"
+        />
+      </section>
+    </div>
+    <div
+      className="pt-navbar-group pt-align-right"
+    >
+      <span
+        className="pt-navbar-divider"
+      />
+      <div
+        style={
+          Object {
+            "display": "flex",
+          }
+        }
+      >
+        <Link
+          className="link"
+          onlyActiveOnIndex={false}
+          style={Object {}}
+          to="/dRTM/currentalarm"
+        >
+          dRTM
+        </Link>
+        <Link
+          className="link"
+          onlyActiveOnIndex={false}
+          style={Object {}}
+          to="/qca/dashboard"
+        >
+          QCA
+        </Link>
+      </div>
+      <span
+        className="pt-navbar-divider"
+      />
+      <button
+        className="pt-button pt-minimal pt-icon-notifications"
+      />
+      <button
+        className="pt-button pt-minimal pt-icon-more"
+      />
+      <span
+        className="pt-navbar-divider"
+      />
+      <span
+        style={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+      >
+        Log out
+      </span>
+    </div>
+  </nav>
+  <SubNav
+    location="SADJ"
+    route={
+      Object {
+        "path": "ojs(/:path)",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`(Component) Navbar render normally if path is qca 1`] = `
+<div
+  className="Navbar-container"
+>
+  <nav
+    className="pt-navbar pt-dark navbar"
+  >
+    <div
+      className="pt-navbar-group pt-align-left"
+    >
+      <div
+        className="pt-navbar-heading"
+      >
+        <img
+          className="logo"
+          src="/quality03_0111-20.png"
+        />
+      </div>
+      <div
+        className="title"
+      >
+        QCA
+      </div>
+      <section
+        className="navbar-lists"
+      >
+        <Popover
+          arrowSize={30}
+          className="button-bg"
+          content={
+            <Blueprint.Menu
+              className="menu"
+            >
+              <Link
+                className="menuItem"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/qca/dashboard"
+              >
+                <Blueprint.Button
+                  className="pt-menu-item pt-minimal menu-item-button"
+                />
+              </Link>
+              <Link
+                className="menuItem"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/qca/defectmap"
+              >
+                <Blueprint.Button
+                  className="pt-menu-item pt-minimal menu-item-button"
+                />
+              </Link>
+              <Link
+                className="menuItem"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/qca/"
+              >
+                <Blueprint.Button
+                  className="pt-menu-item pt-minimal menu-item-button"
+                />
+              </Link>
+              <Link
+                className="menuItem"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/qca/"
+              >
+                <Blueprint.Button
+                  className="pt-menu-item pt-minimal menu-item-button"
+                  text="接触脚功能与破片功能"
+                />
+              </Link>
+            </Blueprint.Menu>
+          }
+          defaultIsOpen={false}
+          hoverCloseDelay={300}
+          hoverOpenDelay={150}
+          inheritDarkTheme={true}
+          inline={false}
+          interactionKind={0}
+          isDisabled={false}
+          isModal={false}
+          popoverClassName=""
+          position={7}
+          rootElementTag="span"
+          transitionDuration={300}
+          useSmartArrowPositioning={true}
+          useSmartPositioning={false}
+        >
+          <span
+            className="button"
+          >
+            <span
+              className="pt-icon-standard pt-icon-chevron-down pt-align-right"
+            />
+          </span>
+        </Popover>
+        <Popover
+          arrowSize={30}
+          className="button-bg"
+          content={
+            <Blueprint.Menu
+              className="menu"
+            >
+              <Link
+                className="menuItem"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/qca/"
+              >
+                <Blueprint.Button
+                  className="pt-menu-item pt-minimal menu-item-button"
+                  text="Format试算功能"
+                />
+              </Link>
+              <Link
+                className="menuItem"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/qca/"
+              >
+                <Blueprint.Button
+                  className="pt-menu-item pt-minimal menu-item-button"
+                />
+              </Link>
+              <Link
+                className="menuItem"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/qca/"
+              >
+                <Blueprint.Button
+                  className="pt-menu-item pt-minimal menu-item-button"
+                />
+              </Link>
+              <Link
+                className="menuItem"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/qca/"
+              >
+                <Blueprint.Button
+                  className="pt-menu-item pt-minimal menu-item-button"
+                />
+              </Link>
+              <Link
+                className="menuItem"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/qca/"
+              >
+                <Blueprint.Button
+                  className="pt-menu-item pt-minimal menu-item-button"
+                />
+              </Link>
+            </Blueprint.Menu>
+          }
+          defaultIsOpen={false}
+          hoverCloseDelay={300}
+          hoverOpenDelay={150}
+          inheritDarkTheme={true}
+          inline={false}
+          interactionKind={0}
+          isDisabled={false}
+          isModal={false}
+          popoverClassName=""
+          position={7}
+          rootElementTag="span"
+          transitionDuration={300}
+          useSmartArrowPositioning={true}
+          useSmartPositioning={false}
+        >
+          <span
+            className="button"
+          >
+            检视专区
+            <span
+              className="pt-icon-standard pt-icon-chevron-down pt-align-right"
+            />
+          </span>
+        </Popover>
+        <Popover
+          arrowSize={30}
+          className="button-bg"
+          content={
+            <Blueprint.Menu
+              className="menu"
+            >
+              <Link
+                className="menuItem"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/qca/"
+              >
+                <Blueprint.Button
+                  className="pt-menu-item pt-minimal menu-item-button"
+                />
+              </Link>
+              <Link
+                className="menuItem"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/qca/"
+              >
+                <Blueprint.Button
+                  className="pt-menu-item pt-minimal menu-item-button"
+                />
+              </Link>
+              <Link
+                className="menuItem"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/qca/"
+              >
+                <Blueprint.Button
+                  className="pt-menu-item pt-minimal menu-item-button"
+                />
+              </Link>
+              <Link
+                className="menuItem"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/qca/"
+              >
+                <Blueprint.Button
+                  className="pt-menu-item pt-minimal menu-item-button"
+                />
+              </Link>
+            </Blueprint.Menu>
+          }
+          defaultIsOpen={false}
+          hoverCloseDelay={300}
+          hoverOpenDelay={150}
+          inheritDarkTheme={true}
+          inline={false}
+          interactionKind={0}
+          isDisabled={false}
+          isModal={false}
+          popoverClassName=""
+          position={7}
+          rootElementTag="span"
+          transitionDuration={300}
+          useSmartArrowPositioning={true}
+          useSmartPositioning={false}
+        >
+          <span
+            className="button"
+          >
+            测试专区
+            <span
+              className="pt-icon-standard pt-icon-chevron-down pt-align-right"
+            />
+          </span>
+        </Popover>
+        <Popover
+          arrowSize={30}
+          className="button-bg"
+          content={
+            <Blueprint.Menu
+              className="menu"
+            >
+              <Blueprint.MenuItem
+                className="subMenu"
+                disabled={false}
+                shouldDismissPopover={true}
+                submenuViewportMargin={Object {}}
+                text="共通性分析统计功能"
+                useSmartPositioning={true}
+              >
+                <Link
+                  className="menuItem"
+                  onlyActiveOnIndex={false}
+                  style={Object {}}
+                  to="/qca/stk"
+                >
+                  <Blueprint.Button
+                    className="pt-menu-item pt-minimal menu-item-button"
+                  />
+                </Link>
+                <Link
+                  className="menuItem"
+                  onlyActiveOnIndex={false}
+                  style={Object {}}
+                  to="/qca/stk"
+                >
+                  <Blueprint.Button
+                    className="pt-menu-item pt-minimal menu-item-button"
+                    text="机台共通性分析"
+                  />
+                </Link>
+                <Link
+                  className="menuItem"
+                  onlyActiveOnIndex={false}
+                  style={Object {}}
+                  to="/qca/stk"
+                >
+                  <Blueprint.Button
+                    className="pt-menu-item pt-minimal menu-item-button"
+                    text="原物料共通性分析"
+                  />
+                </Link>
+                <Link
+                  className="menuItem"
+                  onlyActiveOnIndex={false}
+                  style={Object {}}
+                  to="/qca/stk"
+                >
+                  <Blueprint.Button
+                    className="pt-menu-item pt-minimal menu-item-button"
+                    text="制程参数（EDC）比对"
+                  />
+                </Link>
+                <Link
+                  className="menuItem"
+                  onlyActiveOnIndex={false}
+                  style={Object {}}
+                  to="/qca/echarts"
+                >
+                  <Blueprint.Button
+                    className="pt-menu-item pt-minimal menu-item-button"
+                    text="Echarts制图试用"
+                  />
+                </Link>
+              </Blueprint.MenuItem>
+              <Link
+                className="menuItem"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/qca/"
+              >
+                <Blueprint.Button
+                  className="pt-menu-item pt-minimal menu-item-button"
+                />
+              </Link>
+              <Link
+                className="menuItem"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/qca/"
+              >
+                <Blueprint.Button
+                  className="pt-menu-item pt-minimal menu-item-button"
+                />
+              </Link>
+              <Link
+                className="menuItem"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/qca/"
+              >
+                <Blueprint.Button
+                  className="pt-menu-item pt-minimal menu-item-button"
+                />
+              </Link>
+            </Blueprint.Menu>
+          }
+          defaultIsOpen={false}
+          hoverCloseDelay={300}
+          hoverOpenDelay={150}
+          inheritDarkTheme={true}
+          inline={false}
+          interactionKind={0}
+          isDisabled={false}
+          isModal={false}
+          popoverClassName=""
+          position={7}
+          rootElementTag="span"
+          transitionDuration={300}
+          useSmartArrowPositioning={true}
+          useSmartPositioning={false}
+        >
+          <span
+            className="button"
+          >
+            工程专区
+            <span
+              className="pt-icon-standard pt-icon-chevron-down pt-align-right"
+            />
+          </span>
+        </Popover>
+      </section>
+    </div>
+    <div
+      className="pt-navbar-group pt-align-right"
+    >
+      <span
+        className="pt-navbar-divider"
+      />
+      <div
+        style={
+          Object {
+            "display": "flex",
+          }
+        }
+      >
+        <Link
+          className="link"
+          onlyActiveOnIndex={false}
+          style={Object {}}
+          to="/dRTM/currentalarm"
+        >
+          dRTM
+        </Link>
+      </div>
+      <span
+        className="pt-navbar-divider"
+      />
+      <button
+        className="pt-button pt-minimal pt-icon-notifications"
+      />
+      <button
+        className="pt-button pt-minimal pt-icon-more"
+      />
+      <span
+        className="pt-navbar-divider"
+      />
+      <span
+        style={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+      >
+        Log out
+      </span>
+    </div>
+  </nav>
+  <SubNav
+    location="QCA"
+    route={
+      Object {
+        "path": "qca(/:path)",
+      }
+    }
+  />
+</div>
+`;

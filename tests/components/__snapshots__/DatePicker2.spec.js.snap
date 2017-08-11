@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) DatePicker2 render normally 1`] = `
+<div
+  className="DatePicker-container"
+>
+  <section
+    className="header"
+  >
+    <span>
+      时间范围
+    </span>
+  </section>
+  <section
+    className="picker"
+  >
+    <span>
+      从 
+    </span>
+    <section
+      className="handleContainer"
+    >
+      <div
+        className="date"
+      >
+        <DateInput
+          closeOnSelection={true}
+          disabled={false}
+          format="YYYY-MM-DD"
+          invalidDateMessage="Invalid date"
+          maxDate={2027-06-05T16:00:00.000Z}
+          minDate={2007-06-05T16:00:00.000Z}
+          onChange={[Function]}
+          openOnFocus={true}
+          outOfRangeMessage="Out of range"
+          popoverPosition={8}
+          showActionsBar={true}
+          value={2017-06-05T16:00:00.000Z}
+        />
+      </div>
+      <TimePicker
+        className="time"
+        onChange={[Function]}
+        precision={0}
+        selectAllOnFocus={false}
+        showArrowButtons={false}
+        value={2017-06-05T16:00:00.000Z}
+      />
+    </section>
+  </section>
+  <section
+    className="picker"
+  >
+    <span>
+      至 
+    </span>
+    <section
+      className="handleContainer"
+    >
+      <div
+        className="date"
+      >
+        <DateInput
+          closeOnSelection={true}
+          disabled={false}
+          format="YYYY-MM-DD"
+          invalidDateMessage="Invalid date"
+          maxDate={2027-06-06T15:59:59.000Z}
+          minDate={2007-06-06T15:59:59.000Z}
+          onChange={[Function]}
+          openOnFocus={true}
+          outOfRangeMessage="Out of range"
+          popoverPosition={8}
+          showActionsBar={true}
+          value={2017-06-06T15:59:59.000Z}
+        />
+      </div>
+      <TimePicker
+        className="time"
+        onChange={[Function]}
+        precision={0}
+        selectAllOnFocus={false}
+        showArrowButtons={false}
+        value={2017-06-06T15:59:59.000Z}
+      />
+    </section>
+  </section>
+</div>
+`;

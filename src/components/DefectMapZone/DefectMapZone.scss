@@ -1,0 +1,83 @@
+.DefectMapZone-container {
+  position: relative;
+  margin: 20px 0;
+  padding: 20px;
+  border: solid 1px #E3E3E3;
+  border-radius: 3px;
+
+  .graph {
+    position: relative;
+    display: block;
+  }
+
+  :global {
+    svg {
+      font-size: 14px;
+    }
+
+    .axis {
+      shape-rendering: crispEdges;
+    }
+
+    .axis line {
+      stroke: #ddd;
+      stroke-width: .5px;
+    }
+
+    .axis path {
+      display: none;
+    }
+
+    rect.extent {
+      fill: #000;
+      fill-opacity: .125;
+      stroke: #fff;
+    }
+
+    rect.frame {
+      fill: #fff;
+      fill-opacity: .7;
+      stroke: #aaa;
+    }
+
+    circle {
+      fill: #ccc;
+      fill-opacity: .5;
+    }
+
+    .legend circle {
+      fill-opacity: 1;
+    }
+
+    .legend text {
+      font-size: 18px;
+      font-style: oblique;
+    }
+
+    .title {
+      font-size: 20px;
+      font-style: oblique;
+      color: black;
+    }
+
+    .cell text {
+      pointer-events: none;
+    }
+
+    .setosa {
+      fill: #800;
+    }
+
+    .versicolor {
+      fill: #080;
+    }
+
+    .virginica {
+      fill: #008;
+    }
+
+    .color {
+      fill: #800;
+    }
+  }
+}

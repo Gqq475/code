@@ -1,0 +1,44 @@
+:global {
+  $lengthOfEdge: 20px;
+  @import 'base';
+  @import 'vendor/normalize';
+
+  // Some best-practice CSS that's useful for most apps
+  // Just remove them if they're not what you want
+  html {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  .bp-table-column-name{
+    text-align: center;
+  }
+  .ag-bl-overlay{
+    pointer-events: initial;
+  }
+
+  .react-resizable {
+    // position: relative;
+  }
+
+  .react-resizable-handle {
+    position: absolute;
+    width: $lengthOfEdge;
+    height: $lengthOfEdge;
+    bottom: - $lengthOfEdge / 2;
+    right: - $lengthOfEdge / 2;
+    cursor: nwse-resize;
+  }
+}

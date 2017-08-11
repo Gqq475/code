@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) EchartsgSTK render normally 1`] = `
+<div
+  className="EchartsgSTK-container"
+>
+  <ECharts
+    config={Object {}}
+    id="chart"
+    lazyUpdate={false}
+    notMerge={false}
+    option={
+      Object {
+        "legend": Object {
+          "data": Array [
+            "Defect Number",
+            "Glass Number",
+            "Defect Rate",
+          ],
+        },
+        "series": Array [
+          Object {
+            "data": Array [
+              62,
+            ],
+            "name": "Defect Number",
+            "type": "bar",
+          },
+          Object {
+            "data": Array [
+              7,
+            ],
+            "name": "Glass Number",
+            "type": "bar",
+          },
+          Object {
+            "data": Array [
+              885.71,
+            ],
+            "name": "Defect Rate",
+            "type": "line",
+            "yAxisIndex": 1,
+          },
+        ],
+        "tooltip": Object {
+          "trigger": "axis",
+        },
+        "xAxis": Array [
+          Object {
+            "data": Array [
+              76,
+            ],
+            "type": "category",
+          },
+        ],
+        "yAxis": Array [
+          Object {
+            "axisLabel": Object {
+              "formatter": "{value}",
+            },
+            "name": "Defect Number",
+            "type": "value",
+          },
+          Object {
+            "axisLabel": Object {
+              "formatter": "{value} %",
+            },
+            "name": "Defect Rate",
+            "type": "value",
+          },
+        ],
+      }
+    }
+    style={
+      Object {
+        "height": "500px",
+      }
+    }
+  />
+  <UniverseTable
+    data={
+      Array [
+        Object {
+          "DefectNumber": 62,
+          "DefectRate": "885.71%",
+          "GlassNumber": 7,
+          "PathType": 76,
+          "path": undefined,
+        },
+      ]
+    }
+    field={
+      Object {
+        "undefined": "GlassNumber",
+      }
+    }
+  />
+</div>
+`;

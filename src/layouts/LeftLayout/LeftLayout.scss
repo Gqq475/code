@@ -1,0 +1,44 @@
+.left-layout {
+	padding: 20px 0;
+	position: relative;
+	background: #fff;
+	border-radius: 5px;
+	border: solid 1px #0073BB;
+
+  .get-back-title{
+    .title{
+      padding-left: 15px;
+    }
+  }
+
+	.collapseBtn {
+		position: absolute;
+		right: 5px;
+		top: 5px;
+		outline: 0;
+		border: 0px;
+	}
+}
+
+.collapse {
+	position: absolute;
+	width: 245px;
+	//left: -225px;
+	left: -218px;
+	cursor: pointer;
+	overflow: hidden;
+	background: #f7f7f7;
+	transition: all .1s ease;
+
+	div, button {
+		opacity: 1;
+	}
+}
+
+.collapse:hover {
+	left: -220px;
+}
+
+.expand {
+	width: 23%;
+}

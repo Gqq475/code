@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) OJS render normally if path is autodefectjudge 1`] = `
+<div
+  className="OJS-container"
+>
+  <Connect(AutoDefectJudge)
+    autoSubmitJudge={[Function]}
+    data={
+      Object {
+        "a": Object {
+          "a": "23",
+        },
+        "b": Object {
+          "b": "23",
+        },
+      }
+    }
+    getAutoDefectDetailById={[Function]}
+    getAutoDefectJudgeById={[Function]}
+    getAutoDefectJudgeList={[Function]}
+    getDefectCode={[Function]}
+  />
+</div>
+`;
+
+exports[`(Component) OJS render normally if path is modelversion 1`] = `
+<div
+  className="OJS-container"
+>
+  <ModelVersion
+    data={
+      Object {
+        "a": Object {
+          "a": "23",
+        },
+        "b": Object {
+          "b": "23",
+        },
+      }
+    }
+    getCreateService={[Function]}
+    getModel={[Function]}
+    getServiceDetail={[Function]}
+  />
+</div>
+`;
+
+exports[`(Component) OJS render normally if path is servicemanagement 1`] = `
+<div
+  className="OJS-container"
+>
+  <ServiceManagement
+    data={
+      Object {
+        "a": Object {
+          "a": "23",
+        },
+        "b": Object {
+          "b": "23",
+        },
+      }
+    }
+    getCreateService={[Function]}
+    getModel={[Function]}
+    getServiceDetail={[Function]}
+  />
+</div>
+`;
+
+exports[`(Component) OJS render path is labelingtool normally 1`] = `
+<div
+  className="OJS-container"
+>
+  <Connect(LabelingTool)
+    addDefectType={[Function]}
+    data={
+      Object {
+        "a": Object {
+          "a": "23",
+        },
+        "b": Object {
+          "b": "23",
+        },
+      }
+    }
+    getDefectTypeList={[Function]}
+    getLabelingToolImageDefect={[Function]}
+    getLabelingToolImageList={[Function]}
+  />
+</div>
+`;

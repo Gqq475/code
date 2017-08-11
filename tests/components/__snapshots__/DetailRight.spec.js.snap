@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) DetailRight render normally 1`] = `
+<div
+  className="right-container"
+>
+  <div
+    className="title"
+  >
+    3. Time condition
+  </div>
+  <Blueprint.Radio
+    defaultChecked={false}
+    label="单片超过（无时间限定）"
+    name="condition"
+    value="1"
+  />
+  <Blueprint.Radio
+    defaultChecked={false}
+    label="时间区间内设定"
+    name="condition"
+    value="2"
+  />
+  <div
+    className="time-group-container"
+  >
+    <div
+      className="pt-control-group"
+    >
+      <div
+        className="pt-select"
+      >
+        <select>
+          <option
+            value="1"
+          >
+            固定区间总和
+          </option>
+          <option
+            value="2"
+          >
+            固定区间平均
+          </option>
+          <option
+            value="3"
+          >
+            移动区间总和
+          </option>
+          <option
+            value="4"
+          >
+            移动区间平均
+          </option>
+        </select>
+      </div>
+      <div
+        className="pt-input-group time-input"
+      >
+        <input
+          className="pt-input"
+        />
+      </div>
+    </div>
+    <span
+      className="time-input-text"
+    >
+      分钟
+    </span>
+  </div>
+  <div
+    className="time-group-container"
+  >
+    <span
+      className="time-input-text"
+    >
+      最少
+    </span>
+    <div
+      className="pt-control-group"
+    >
+      <div
+        className="pt-select"
+      >
+        <select>
+          <option
+            value="1"
+          >
+            连续片数
+          </option>
+          <option
+            value="2"
+          >
+            累积片数
+          </option>
+          <option
+            value="3"
+          >
+            平均片数
+          </option>
+        </select>
+      </div>
+      <div
+        className="pt-input-group time-input"
+      >
+        <input
+          className="pt-input"
+        />
+      </div>
+    </div>
+    <span
+      className="time-input-text"
+    >
+      片
+    </span>
+  </div>
+</div>
+`;

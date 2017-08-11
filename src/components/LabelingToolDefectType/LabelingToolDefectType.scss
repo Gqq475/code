@@ -1,0 +1,39 @@
+.LabelingToolDefectType-container {
+  margin: 20px 0 ;
+
+  .tabs {
+    display: block;
+
+    li {
+      border-radius: 2px 2px 0 0;
+      border: solid 1px #0087DC;
+      padding: 0 10px;
+      margin: -1px 0 0 -1px;
+      display: inline-block;
+    }
+  }
+  .twoTab {
+    margin: 0px;
+  }
+  .tabContent {
+    border: solid 1px #0087DC;
+    margin: 0px;
+  }
+  .tabContent div {
+    font-size: 12px;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .tabContent div:hover {
+    background: #0087DC;
+    color: #fff;
+  }
+  .active {
+    background:#b0e0e6;
+    color: #666;
+  }
+}

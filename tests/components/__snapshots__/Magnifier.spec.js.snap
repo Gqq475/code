@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) Magnifier render normally 1`] = `
+<Draggable
+  allowAnyClick={false}
+  axis="both"
+  bounds={false}
+  cancel={null}
+  defaultClassName="react-draggable"
+  defaultClassNameDragged="react-draggable-dragged"
+  defaultClassNameDragging="react-draggable-dragging"
+  defaultPosition={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  disabled={false}
+  enableUserSelectHack={true}
+  grid={null}
+  handle={null}
+  offsetParent={null}
+  onDrag={[Function]}
+  onMouseDown={[Function]}
+  onStart={[Function]}
+  onStop={[Function]}
+  position={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  transform={null}
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "white",
+        "backgroundImage": "url(undefined)",
+        "backgroundPosition": "NaNpx NaNpx",
+        "backgroundRepeat": "no-repeat",
+        "backgroundSize": "NaNpx auto",
+        "border": "2px solid #2586c2",
+        "borderRadius": "NaNpx",
+        "cursor": "pointer",
+        "height": "undefinedpx",
+        "width": "undefinedpx",
+      }
+    }
+  >
+    <span
+      className="pt-button pt-intent-primary pt-icon-cross"
+      style={
+        Object {
+          "paddingLeft": "7px",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+    <Blueprint.RadioGroup
+      className="radioGroup"
+    >
+      <Blueprint.Radio
+        className="radio"
+        label="1x"
+        value={1}
+      />
+      <Blueprint.Radio
+        className="radio"
+        label="2x"
+        value={2}
+      />
+      <Blueprint.Radio
+        className="radio"
+        label="3x"
+        value={3}
+      />
+    </Blueprint.RadioGroup>
+  </div>
+</Draggable>
+`;

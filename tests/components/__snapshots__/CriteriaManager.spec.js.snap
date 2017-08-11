@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) CriteriaManager render normally if criteriaManager and criteriaManagerDetail were empty 1`] = `
+<div
+  className="CriteriaManager-container"
+>
+  <div
+    className="pb10"
+  />
+  <UniverseTable
+    field={
+      Object {
+        "undefined": "enabled",
+      }
+    }
+    handleClick={[Function]}
+    setDataSource={[Function]}
+  />
+  <section
+    className="section mtb10"
+  >
+    <CriteriaManagerEditer
+      type=""
+    />
+  </section>
+</div>
+`;
+
+exports[`(Component) CriteriaManager render normally if criteriaManager and criteriaManagerDetail were not empty 1`] = `
+<div
+  className="CriteriaManager-container"
+>
+  <div
+    className="pb10"
+  />
+  <UniverseTable
+    field={
+      Object {
+        "undefined": "enabled",
+      }
+    }
+    handleClick={[Function]}
+    setDataSource={[Function]}
+  />
+  <section
+    className="section mtb10"
+  >
+    <CriteriaManagerEditer
+      data={
+        Object {
+          "enabled": 1,
+          "id1ooc": 1.34,
+          "oos": 3.22,
+          "summary": "V509-mn8-o5-5123",
+          "updateBy": "unknown",
+          "updateTime": "Jun 8, 2017 5:41:39 AM",
+        }
+      }
+      type=""
+    />
+  </section>
+</div>
+`;

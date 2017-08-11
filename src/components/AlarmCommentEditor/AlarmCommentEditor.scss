@@ -1,0 +1,19 @@
+.AlarmCommentEditor-container {
+  display: flex;
+  flex-direction: column;
+
+  .button {
+    margin: 0 0 0 auto;
+  }
+
+  .textLabel {
+    color: #909090;
+    width: 40%;
+    padding: 5px 20px 5px 0;
+    text-align: right;
+  }
+
+  .textarea {
+    margin-left: 20px;
+  }
+}

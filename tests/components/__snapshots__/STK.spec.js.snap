@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) STK render normally 1`] = `
+<div
+  className="STK-container"
+>
+  <iframe
+    className="iframe"
+    src=""
+  />
+</div>
+`;

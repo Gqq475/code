@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) LoadingContainer render normally 1`] = `
+<div
+  className="LoadingContainer-container"
+>
+  <label
+    className="waitingIndicatorTxt"
+  />
+  <Blueprint.ProgressBar
+    className="waitingIndicator"
+    intent={0}
+  />
+</div>
+`;

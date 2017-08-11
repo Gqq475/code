@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) AlarmDetail render normally if data was empty 1`] = `
+<div
+  className="pt-card pt-elevation-2 AlarmDetail-container"
+/>
+`;
+
+exports[`(Component) AlarmDetail render normally if data was not empty 1`] = `
+<div
+  className="pt-card pt-elevation-2 AlarmDetail-container"
+/>
+`;

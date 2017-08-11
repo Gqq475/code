@@ -1,0 +1,293 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) Pagination render totalpage<5 normally 1`] = `
+<div
+  className="div"
+>
+  <div
+    className="paginationDiv"
+  >
+    <div
+      className="leftDiv"
+    >
+      <a
+        className="prev disable"
+        onClick={[Function]}
+      />
+      <span>
+        <a
+          className="num current"
+          onClick={[Function]}
+        >
+          1
+        </a>
+        <a
+          className="num"
+          onClick={[Function]}
+        >
+          2
+        </a>
+        <a
+          className="num"
+          onClick={[Function]}
+        >
+          3
+        </a>
+      </span>
+      <a
+        className="next"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="rightDiv"
+    >
+      总共
+      <span
+        className="num-total"
+      >
+        3
+      </span>
+      条， 共
+      <span
+        className="num-total"
+      >
+        3
+      </span>
+      页，到第
+      <input
+        className="input"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      页
+    </div>
+  </div>
+</div>
+`;
+
+exports[`(Component) Pagination render totalpage>5 normally 1`] = `
+<div
+  className="div"
+>
+  <div
+    className="paginationDiv"
+  >
+    <div
+      className="leftDiv"
+    >
+      <a
+        className="prev disable"
+        onClick={[Function]}
+      />
+      <span>
+        <a
+          className="num current"
+          onClick={[Function]}
+        >
+          1
+        </a>
+        <a
+          className="num"
+          onClick={[Function]}
+        >
+          2
+        </a>
+        <a
+          className="num"
+          onClick={[Function]}
+        >
+          3
+        </a>
+        <a
+          className="num"
+          onClick={[Function]}
+        >
+          4
+        </a>
+        <a
+          className="num"
+          onClick={[Function]}
+        >
+          5
+        </a>
+      </span>
+      <a
+        className="next"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="rightDiv"
+    >
+      总共
+      <span
+        className="num-total"
+      >
+        20
+      </span>
+      条， 共
+      <span
+        className="num-total"
+      >
+        20
+      </span>
+      页，到第
+      <input
+        className="input"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      页
+    </div>
+  </div>
+</div>
+`;
+
+exports[`(Component) Pagination render totalpage<5 normally 1`] = `
+<div
+  className="div"
+>
+  <div
+    className="paginationDiv"
+  >
+    <div
+      className="leftDiv"
+    >
+      <a
+        className="prev disable"
+        onClick={[Function]}
+      />
+      <span>
+        <a
+          className="num current"
+          onClick={[Function]}
+        >
+          1
+        </a>
+        <a
+          className="num"
+          onClick={[Function]}
+        >
+          2
+        </a>
+        <a
+          className="num"
+          onClick={[Function]}
+        >
+          3
+        </a>
+      </span>
+      <a
+        className="next"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="rightDiv"
+    >
+      总共
+      <span
+        className="num-total"
+      >
+        3
+      </span>
+      条， 共
+      <span
+        className="num-total"
+      >
+        3
+      </span>
+      页，到第
+      <input
+        className="input"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      页
+    </div>
+  </div>
+</div>
+`;
+
+exports[`(Component) Pagination render totalpage>5 normally 1`] = `
+<div
+  className="div"
+>
+  <div
+    className="paginationDiv"
+  >
+    <div
+      className="leftDiv"
+    >
+      <a
+        className="prev disable"
+        onClick={[Function]}
+      />
+      <span>
+        <a
+          className="num current"
+          onClick={[Function]}
+        >
+          1
+        </a>
+        <a
+          className="num"
+          onClick={[Function]}
+        >
+          2
+        </a>
+        <a
+          className="num"
+          onClick={[Function]}
+        >
+          3
+        </a>
+        <a
+          className="num"
+          onClick={[Function]}
+        >
+          4
+        </a>
+        <a
+          className="num"
+          onClick={[Function]}
+        >
+          5
+        </a>
+      </span>
+      <a
+        className="next"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="rightDiv"
+    >
+      总共
+      <span
+        className="num-total"
+      >
+        20
+      </span>
+      条， 共
+      <span
+        className="num-total"
+      >
+        20
+      </span>
+      页，到第
+      <input
+        className="input"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      页
+    </div>
+  </div>
+</div>
+`;

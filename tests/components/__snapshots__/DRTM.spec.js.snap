@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) DRTM render normally if path of params is alarmhistory 1`] = `
+<div
+  className="DRTM-container"
+>
+  <AlarmHistory
+    data={
+      Object {
+        "a": Object {
+          "a": "23",
+        },
+        "b": Object {
+          "b": "23",
+        },
+      }
+    }
+    token="autodefefdsfsdfdsctjudge"
+  />
+</div>
+`;
+
+exports[`(Component) DRTM render normally if path of params is alarmrate 1`] = `
+<div
+  className="DRTM-container"
+>
+  <Connect(AlarmRate) />
+</div>
+`;
+
+exports[`(Component) DRTM render normally if path of params is criteriamanager 1`] = `
+<div
+  className="DRTM-container"
+>
+  <Connect(CriteriaManager)
+    criteriaManagerAdd={[Function]}
+    criteriaManagerUpdate={[Function]}
+    data={
+      Object {
+        "a": Object {
+          "a": "23",
+        },
+        "b": Object {
+          "b": "23",
+        },
+      }
+    }
+    getCriteriaManagerDetail={[Function]}
+  />
+</div>
+`;
+
+exports[`(Component) DRTM render normally if path of params is currentalarm 1`] = `
+<div
+  className="DRTM-container"
+>
+  <CurrentAlarm
+    data={
+      Object {
+        "a": Object {
+          "a": "23",
+        },
+        "b": Object {
+          "b": "23",
+        },
+      }
+    }
+    getCurrentAlarm={[Function]}
+  />
+</div>
+`;
+
+exports[`(Component) DRTM render normally if path of params is defectjudge 1`] = `
+<div
+  className="DRTM-container"
+>
+  <Connect(DefectJudge)
+    data={
+      Object {
+        "a": Object {
+          "a": "23",
+        },
+        "b": Object {
+          "b": "23",
+        },
+      }
+    }
+    getDefectDetailById={[Function]}
+    getDefectJudgeById={[Function]}
+    submitJudge={[Function]}
+  />
+</div>
+`;

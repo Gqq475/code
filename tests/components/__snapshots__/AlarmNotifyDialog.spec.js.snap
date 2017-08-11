@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) AlarmNotifyDialog render normally 1`] = `
+<section>
+  <Dialog
+    iconName="inbox"
+    isOpen={false}
+    onClose={[Function]}
+    title="Notify users"
+  >
+    <div
+      className="pt-dialog-body dialog--body"
+    >
+      <section
+        className="body"
+      >
+        <span />
+        <span>
+          Select receivers
+        </span>
+        <Async
+          autoload={true}
+          cache={Object {}}
+          ignoreAccents={true}
+          ignoreCase={true}
+          labelKey="name"
+          loadOptions={[Function]}
+          loadingPlaceholder="Loading..."
+          multi={true}
+          onChange={[Function]}
+          options={Array []}
+          placeholder=""
+          searchPromptText="Type to search"
+          value={Array []}
+          valueKey="name"
+        />
+        <span>
+          Notification types
+        </span>
+        <section
+          className="checkboxGroup"
+        >
+          <Blueprint.Checkbox
+            checked={false}
+            disabled={true}
+            label="Mail"
+            onChange={[Function]}
+          />
+          <Blueprint.Checkbox
+            checked={false}
+            label="Push notification"
+            onChange={[Function]}
+          />
+          <Blueprint.Checkbox
+            disabled={true}
+            label="SMS"
+          />
+        </section>
+        <span>
+          Messages
+        </span>
+        <textarea
+          className="pt-input"
+          onChange={[Function]}
+          value=""
+        />
+        <article
+          className="btnGroup"
+        >
+          <button
+            className="pt-button"
+            onClick={[Function]}
+            style={
+              Object {
+                "margin": "0 10px",
+              }
+            }
+            type="button"
+          >
+            Cancel
+          </button>
+          <button
+            className="pt-button pt-intent-primary pt-disabled"
+            onClick={[Function]}
+            type="button"
+          >
+            Send
+          </button>
+        </article>
+      </section>
+    </div>
+  </Dialog>
+</section>
+`;

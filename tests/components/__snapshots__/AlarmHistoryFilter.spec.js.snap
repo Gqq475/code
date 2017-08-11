@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) AlarmHistoryFilter render normally 1`] = `
+<div
+  className="AlarmHistoryFilter-container"
+>
+  <section
+    className="header"
+  >
+    快速查询
+  </section>
+  <div
+    className="searchContainer"
+  >
+    <Blueprint.Button
+      className="btn-submit"
+      id="curBtn"
+      onClick={[Function]}
+    />
+    <Blueprint.Button
+      className="btn-submit"
+      id="preBtn"
+      onClick={[Function]}
+    />
+  </div>
+  <hr />
+  <DatePicker2 />
+  <div
+    className="searchContainer"
+  >
+    <Blueprint.Button
+      id="dateBtn"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

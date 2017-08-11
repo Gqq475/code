@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) AlarmCommentEditor render normally 1`] = `
+<div
+  className="AlarmCommentEditor-container"
+>
+  <label
+    className="textLabel"
+  >
+    意见
+  </label>
+  <textarea
+    className="pt-input textarea"
+    dir="auto"
+    id="commentTA"
+    onChange={[Function]}
+  />
+  <div
+    className="button"
+  >
+    <button
+      className="pt-button pt-minimal pt-icon-confirm"
+      onClick={[Function]}
+      type="button"
+    />
+  </div>
+</div>
+`;

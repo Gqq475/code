@@ -1,0 +1,63 @@
+$border: solid 1px #d7d7d7;
+
+.CurrentAlarm-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+
+  .detail {
+    margin-top: 20px;
+    padding-bottom: 0;
+  }
+
+  .header {
+    margin: -20px -20px 0;
+    padding: 15px 20px 10px;
+    background: #F7F7F7;
+    border-bottom: $border;
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: flex-start;
+
+  .left {
+    width: 20%;
+    padding-top: 20px;
+  }
+
+  .center {
+    width: 50%;
+    border-left: $border;
+    border-right: $border;
+    padding: 20px 0;
+  }
+
+  .right {
+    width: 30%;
+    padding-top: 20px;
+  }
+}
+
+.textField {
+  padding: 5px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  .key {
+    color: #909090;
+    width: 40%;
+    padding-right: 20px;
+    text-align: right;
+  }
+
+  .value {
+    font-weight: bold;
+    color: 333;
+    width: 60%;
+    word-break: break-all;
+  }
+}

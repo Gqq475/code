@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) AutoDefectJudgeZone render normally 1`] = `
+<div
+  className="AutoDefectJudgeZone-container"
+>
+  <div
+    className="top"
+  >
+    <div>
+      <div
+        className="top-left"
+      >
+        <div
+          className="productGlass"
+        >
+          Product: 
+        </div>
+        <div
+          className="strong fz16"
+        />
+      </div>
+      <div
+        className="top-left"
+      >
+        <div
+          className="productGlass"
+        >
+          Glass: 
+        </div>
+        <div
+          className="strong fz16"
+        />
+      </div>
+    </div>
+    <div>
+      <div
+        className="top-right"
+      >
+        Total 
+        <span>
+          0
+           
+        </span>
+        images
+      </div>
+      <label
+        className="pt-control pt-checkbox"
+      >
+        <input
+          checked={false}
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="pt-control-indicator"
+        />
+        自动刷新
+      </label>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="main"
+    >
+      <h4 />
+    </div>
+    <div
+      className="info"
+    >
+      <AutoDefectCodeTabs
+        handleSelectCode={[Function]}
+      />
+    </div>
+  </div>
+  <Pagination
+    current={1}
+    goNext={[Function]}
+    goPrev={[Function]}
+    goValue={1}
+    pageClick={[Function]}
+    switchChange={[Function]}
+    total={0}
+    totalPage={0}
+  />
+</div>
+`;
+
+exports[`(Component) Svg render normally 1`] = `
+<div>
+  <svg
+    height="100%"
+    preserveAspectRatio="xMinYMin slice"
+    style={
+      Object {
+        "marginBottom": "-3px",
+      }
+    }
+    viewBox="0 0 100 243"
+    width="100%"
+  >
+    <image
+      width="100%"
+      x="0"
+      y="0"
+    />
+    <rect
+      fill="none"
+      fillOpacity="0"
+      height={100}
+      stroke="red"
+      strokeOpacity="1"
+      strokeWidth=".7"
+      width={100}
+      x={123}
+      y={60}
+    />
+  </svg>
+</div>
+`;

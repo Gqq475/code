@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ByGlassPanel render normally 1`] = `
+<div
+  className="ByGlassPanel-container"
+>
+  <UniverseTable
+    field={
+      Object {
+        "undefined": "updateTime",
+      }
+    }
+    handleClick={[Function]}
+    multiSelect={true}
+    setDataSource={[Function]}
+  />
+  <div
+    className="btn-container"
+  >
+    <Blueprint.Button
+      className="btn-submit"
+      onClick={[Function]}
+    />
+    <Blueprint.Button
+      className="btn-submit"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

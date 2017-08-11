@@ -1,0 +1,52 @@
+.DatePicker-container {
+  padding: 20px;
+
+  .header {
+    font-weight: 600;
+  }
+
+  .picker {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .handleContainer {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .date {
+    width: 120px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .time {
+    padding: 0 0 0 1px;
+  }
+
+  :global {
+    .pt-input {
+      box-shadow: none;
+      border-radius: 0;
+      border-bottom: solid 1px #d7d7d7;
+    }
+
+    .pt-timepicker-input {
+      width: 20px;
+      // text-decoration: underline;
+    }
+
+    .pt-timepicker-input-row {
+      box-shadow: none;
+    }
+
+    .pt-timepicker-divider-text {
+      width: 5px;
+    }
+  }
+}

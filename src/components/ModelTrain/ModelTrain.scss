@@ -1,0 +1,52 @@
+.ModelTrain-container {
+  .clear{
+
+    &:after{
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+  .right{
+    float: right;
+  }
+  .left{
+    float: left;
+  }
+  .mr10{
+    margin-right: 10px;
+  }
+  .ml10{
+    margin-left: 10px;
+  }
+  .c1{
+    color: #0087DC;
+  }
+  .cn{
+    text-align: center;
+  }
+
+  .action{
+    position: absolute;
+    top: 30px;
+    right: 140px;
+  }
+
+  .eye{
+    position: absolute;
+    top: 30px;
+    right: 82px;
+  }
+
+  .log{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
+
+  .title{
+    background: #F7F7F7;
+    padding: 10px;
+    position: relative;
+  }
+}

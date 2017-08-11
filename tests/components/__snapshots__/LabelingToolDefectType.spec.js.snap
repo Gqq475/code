@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) LabelingToolDefectType render normally 1`] = `
+<div
+  className="LabelingToolDefectType-container"
+>
+  <Tabs
+    initialSelectedTabIndex={0}
+  >
+    <TabList
+      className="tabs"
+    >
+      <Tab
+        isDisabled={false}
+        isSelected={false}
+      >
+        TFT
+      </Tab>
+      <Tab
+        isDisabled={false}
+        isSelected={false}
+      >
+        CF
+      </Tab>
+      <Tab
+        isDisabled={false}
+        isSelected={false}
+      >
+        Cell
+      </Tab>
+      <Tab
+        isDisabled={false}
+        isSelected={false}
+      >
+        Module
+      </Tab>
+    </TabList>
+    <TabPanel
+      className="twoTab"
+    >
+      <Connect(DefectType) />
+    </TabPanel>
+    <TabPanel
+      className="twoTab"
+    >
+      <Connect(DefectType)
+        data={
+          Array [
+            Object {
+              "departmentCode": "General",
+              "factoryCode": "CF",
+              "id": 2,
+              "isDelete": false,
+              "name": "TestDefect2",
+            },
+          ]
+        }
+      />
+    </TabPanel>
+    <TabPanel
+      className="twoTab"
+    >
+      <Connect(DefectType) />
+    </TabPanel>
+    <TabPanel
+      className="twoTab"
+    >
+      <Connect(DefectType) />
+    </TabPanel>
+  </Tabs>
+</div>
+`;

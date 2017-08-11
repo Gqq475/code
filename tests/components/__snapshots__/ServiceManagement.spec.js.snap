@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ServiceManagement render normally 1`] = `
+<div
+  className="ServiceManagement-container"
+>
+  <Connect(ServiceManagementList)
+    setDetail={[Function]}
+    statusType={
+      Object {
+        "destroyed": "idle",
+        "destroying": "destroying",
+        "feeded": "ready",
+        "feeding": "in Progress",
+        "inited": "creating",
+        "initing": "creating",
+        "none": "idle",
+        "started": "ready",
+        "starting": "creating",
+      }
+    }
+  />
+  <Connect(ServiceManagementEdit)
+    data={Object {}}
+    statusType={
+      Object {
+        "destroyed": "idle",
+        "destroying": "destroying",
+        "feeded": "ready",
+        "feeding": "in Progress",
+        "inited": "creating",
+        "initing": "creating",
+        "none": "idle",
+        "started": "ready",
+        "starting": "creating",
+      }
+    }
+  />
+</div>
+`;

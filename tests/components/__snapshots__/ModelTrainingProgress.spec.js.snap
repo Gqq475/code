@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ModelTrainingProgress render normally 1`] = `
+<div
+  className="ModelTrainingProgress-container"
+>
+  <div
+    style={
+      Object {
+        "color": "#337ab7",
+        "fontSize": "16px",
+        "fontWeight": "bold",
+      }
+    }
+  >
+    暂无数据
+  </div>
+</div>
+`;

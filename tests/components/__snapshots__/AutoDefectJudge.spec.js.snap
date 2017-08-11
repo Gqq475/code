@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) AutoDefectJudge render normally if adjDefectList was not empty. 1`] = `
+<div
+  className="AutoDefectJudge-container"
+/>
+`;
+
+exports[`(Component) AutoDefectJudge render normally if adjDefectList was not empty. 2`] = `
+<div
+  className="AutoDefectJudge-container"
+/>
+`;
+
+exports[`(Component) AutoDefectJudge render normally if glassList and searchState and adjDefectList were not empty. 1`] = `
+<div
+  className="AutoDefectJudge-container"
+>
+  <UniverseTable
+    field={
+      Object {
+        "Aligner": "aligner",
+        "Coater": "coater",
+        "ProcessCode": "processCode",
+        "glassCode": "glassCode",
+        "undefined": "updateTime",
+      }
+    }
+    handleClick={[Function]}
+    setDataSource={[Function]}
+  />
+  <AutoDefectJudgeZone
+    autoList={[Function]}
+    data={
+      Object {
+        "aligner": "A88RU",
+        "coater": "W0DF8SH",
+        "createTime": "May 30, 2017 8:03:56 AM",
+        "endTime": "May 30, 2017 8:03:56 AM",
+        "glassCode": "GM727BD",
+        "glassType": "OJS glass",
+        "id": 1,
+        "lineCode": "PIPR911",
+        "lotId": 1,
+        "operationCode": "9527",
+        "processCode": "EQ_L1_BX",
+        "productCode": "Bond007",
+        "scrapFlag": false,
+        "startTime": "May 30, 2017 8:03:56 AM",
+        "subEqCode": "PIN911",
+      }
+    }
+    dataDetail={
+      Object {
+        "aligner": "A88RU",
+        "coater": "W0DF8SH",
+        "createTime": "May 30, 2017 8:03:56 AM",
+        "endTime": "May 30, 2017 8:03:56 AM",
+        "glassCode": "GM727BD",
+        "glassType": "OJS glass",
+        "id": 1,
+        "lineCode": "PIPR911",
+        "lotId": 1,
+        "operationCode": "9527",
+        "processCode": "EQ_L1_BX",
+        "productCode": "Bond007",
+        "scrapFlag": false,
+        "startTime": "May 30, 2017 8:03:56 AM",
+        "subEqCode": "PIN911",
+      }
+    }
+    glassCode=""
+    handleClick={[Function]}
+    handlePageClick={[Function]}
+    productCode=""
+  />
+</div>
+`;
+
+exports[`(Component) AutoDefectJudge render normally if glassList was empty. 1`] = `
+<div
+  className="AutoDefectJudge-container"
+>
+  <UniverseTable
+    field={
+      Object {
+        "Aligner": "aligner",
+        "Coater": "coater",
+        "ProcessCode": "processCode",
+        "glassCode": "glassCode",
+        "undefined": "updateTime",
+      }
+    }
+    handleClick={[Function]}
+    setDataSource={[Function]}
+  />
+</div>
+`;
+
+exports[`(Component) AutoDefectJudge render normally if searchState was not empty. 1`] = `
+<div
+  className="AutoDefectJudge-container"
+/>
+`;
+
+exports[`(Component) AutoDefectJudge render normally if searchState was not empty. 2`] = `
+<div
+  className="AutoDefectJudge-container"
+/>
+`;

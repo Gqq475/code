@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ActionCellRender render normally 1`] = `
+<div
+  className="cn"
+>
+  <button
+    className="pt-button pt-minimal pt-icon-trash"
+    disabled={true}
+    title="Delete"
+  />
+  <button
+    className="pt-button pt-minimal pt-icon-document-open"
+    disabled={true}
+    onClick={[Function]}
+    title="Feed image"
+  />
+  <button
+    className="pt-button pt-minimal pt-icon-delete"
+    disabled={true}
+    onClick={[Function]}
+    title="Destroy"
+  />
+  <button
+    className="pt-button pt-minimal pt-icon-history"
+    disabled={true}
+    title="Log"
+  />
+  <Connect(FeedImgDialog)
+    id="1"
+    isOpen={false}
+    toggleDialog={[Function]}
+  />
+  <Connect(DestroySrvDialog)
+    isOpen={false}
+    toggleDialog={[Function]}
+  />
+</div>
+`;

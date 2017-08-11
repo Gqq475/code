@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) CreateModelDialog render normally 1`] = `
+<div
+  className="CreateModelDialog-container"
+>
+  <Dialog
+    className="dialog"
+    isOpen={false}
+  >
+    <div
+      className="header"
+    >
+      <h6
+        className="headerTitle"
+      >
+        新建模型
+      </h6>
+    </div>
+    <div
+      className="dialogBody"
+    >
+      <div>
+        <label
+          className="filter"
+        >
+          Training Defect Images:
+          <input
+            className="pt-input"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <Blueprint.Button
+            className="classes.btnEdit interations"
+            onClick={[Function]}
+          >
+            打开
+          </Blueprint.Button>
+        </label>
+        <label
+          className="filter"
+        >
+          Number Of Interations:
+          <Slider
+            className="slider"
+            disabled={false}
+            initialValue={0}
+            labelStepSize={1000000}
+            max={3000000}
+            min={1000000}
+            onChange={[Function]}
+            showTrackFill={true}
+            stepSize={100000}
+            value={1000000}
+          />
+          <input
+            className="pt-input interations"
+            defaultValue={1000000}
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+          />
+        </label>
+        <label
+          className="filter"
+        >
+          Loss Rate:
+          <Slider
+            className="slider"
+            disabled={false}
+            initialValue={0}
+            labelStepSize={0.1}
+            max={0.1}
+            min={0}
+            onChange={[Function]}
+            showTrackFill={true}
+            stepSize={0.00001}
+            value={0.00001}
+          />
+          <input
+            className="pt-input interations"
+            defaultValue={0.00001}
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+          />
+        </label>
+        <label
+          className="filter"
+        >
+          Model Name:
+          <input
+            className="pt-input"
+            onChange={[Function]}
+            type="text"
+          />
+        </label>
+      </div>
+      <div
+        className="btnGroup"
+      >
+        <Blueprint.Button
+          className="btnCancel"
+        >
+          取消
+        </Blueprint.Button>
+        <Blueprint.Button
+          className="pt-button pt-intent-primary btnEdit"
+          onClick={[Function]}
+        >
+          新建
+        </Blueprint.Button>
+      </div>
+    </div>
+  </Dialog>
+</div>
+`;

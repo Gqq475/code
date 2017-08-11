@@ -1,0 +1,54 @@
+$alarmColor: green;
+$warningColor: red;
+
+@mixin circle($type) {
+  content: ' ';
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 15px;
+  top: 5px;
+  background: $type;
+  border-radius: 50%;
+}
+
+.Table-container {
+  background: #f7f7f7;
+  border: solid 1px #0087DC;
+  border-radius: 5px;
+
+  .headerContainer {
+    padding: 15px 20px 10px;
+  }
+
+  .tabelContaienr {
+    height: 230px;
+    padding: 1px;
+  }
+
+  .status-warning::before { @include circle($warningColor); }
+  .status-alarm::before { @include circle($alarmColor); }
+
+  .table {
+    height: 350px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #5f5f5f;
+    background: #f7f7f7;
+    border: 0;
+  }
+
+  .col {
+  }
+
+  .cell {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

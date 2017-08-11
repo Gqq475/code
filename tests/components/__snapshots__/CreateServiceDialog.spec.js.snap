@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) CreateServiceDialog render normally 1`] = `
+<div
+  className="CreateServiceDialog-container"
+>
+  <DialogFilter
+    DialogBtnContent="Create"
+    DialogID=""
+    DialogName=""
+    DialogTitle="Create Service"
+    getModel={[Function]}
+    handleSubmit={[Function]}
+    isChanged={false}
+    kernelIds={Array []}
+    loadingKernelIds={true}
+    that={
+      CreateServiceDialog {
+        "_reactInternalInstance": ShallowComponentWrapper {
+          "_calledComponentWillUnmount": false,
+          "_compositeType": 0,
+          "_context": Object {},
+          "_currentElement": <CreateServiceDialog
+            getModel={[Function]}
+      />,
+          "_debugID": 1,
+          "_hostContainerInfo": null,
+          "_hostParent": null,
+          "_instance": [Circular],
+          "_mountOrder": 1,
+          "_pendingCallbacks": null,
+          "_pendingElement": null,
+          "_pendingForceUpdate": false,
+          "_pendingReplaceState": false,
+          "_pendingStateQueue": null,
+          "_renderedComponent": NoopInternalComponent {
+            "_currentElement": <div
+              className="CreateServiceDialog-container"
+      >
+              <DialogFilter
+                      DialogBtnContent="Create"
+                      DialogID=""
+                      DialogName=""
+                      DialogTitle="Create Service"
+                      data={undefined}
+                      getCreateService={undefined}
+                      getModel={[Function]}
+                      handleSubmit={[Function]}
+                      isChanged={false}
+                      isOpen={undefined}
+                      kernelId={undefined}
+                      kernelIds={Array []}
+                      loadingKernelIds={true}
+                      modelId={undefined}
+                      that={[Circular]}
+                      toggleDialog={undefined}
+              />
+      </div>,
+            "_debugID": 2,
+            "_renderedOutput": <div
+              className="CreateServiceDialog-container"
+      >
+              <DialogFilter
+                      DialogBtnContent="Create"
+                      DialogID=""
+                      DialogName=""
+                      DialogTitle="Create Service"
+                      data={undefined}
+                      getCreateService={undefined}
+                      getModel={[Function]}
+                      handleSubmit={[Function]}
+                      isChanged={false}
+                      isOpen={undefined}
+                      kernelId={undefined}
+                      kernelIds={Array []}
+                      loadingKernelIds={true}
+                      modelId={undefined}
+                      that={[Circular]}
+                      toggleDialog={undefined}
+              />
+      </div>,
+          },
+          "_renderedNodeType": 0,
+          "_rootNodeID": 0,
+          "_topLevelWrapper": null,
+          "_updateBatchNumber": null,
+          "_warnedAboutRefsInRender": false,
+        },
+        "context": Object {},
+        "getKernelIds": [Function],
+        "handleSubmit": [Function],
+        "kernelIdFilter": [Function],
+        "loadingKernelIds": true,
+        "props": Object {
+          "getModel": [Function],
+        },
+        "refs": Object {},
+        "state": Object {
+          "isChanged": false,
+          "kernelId": undefined,
+          "kernelIds": Array [],
+          "modelId": undefined,
+          "name": "",
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      }
+    }
+  />
+</div>
+`;

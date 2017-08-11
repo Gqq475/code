@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) SubNav render normally 1`] = `
+<div
+  className="SubNav-container"
+>
+  <div>
+    <ul
+      className="pt-breadcrumbs breadcrumbs"
+    >
+      <li>
+        <span
+          className="pt-breadcrumb breadcrumbs"
+        />
+      </li>
+      <li>
+        <span
+          className="pt-breadcrumb breadcrumbs"
+        >
+          SADJ
+        </span>
+      </li>
+      <li>
+        <span
+          className="pt-breadcrumb pt-breadcrumb-current currentPage"
+        />
+      </li>
+    </ul>
+  </div>
+</div>
+`;

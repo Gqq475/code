@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) EchartsFilter render normally 1`] = `
+<div
+  className="EchartsLeftMenu-container"
+>
+  <DatePicker2
+    dateEnd={"2017-06-07T09:12:35.000Z"}
+    dateStart={"2017-06-07T09:12:35.000Z"}
+    getEchartsLeftMenu={[Function]}
+    getEquipmentPort={[Function]}
+    getFromTo={[Function]}
+    getHandlingPath={[Function]}
+    getSTK={[Function]}
+  />
+  <AvailableFilters
+    line_code="PIPR01"
+    operation_code="2100"
+    product_code="SV509-CF"
+    sub_eq_code="PIN02"
+    that={
+      EchartsFilter {
+        "_reactInternalInstance": ShallowComponentWrapper {
+          "_calledComponentWillUnmount": false,
+          "_compositeType": 0,
+          "_context": Object {},
+          "_currentElement": <EchartsFilter
+            dateEnd={"2017-06-07T09:12:35.000Z"}
+            dateStart={"2017-06-07T09:12:35.000Z"}
+            getEchartsLeftMenu={[Function]}
+            getEquipmentPort={[Function]}
+            getFromTo={[Function]}
+            getHandlingPath={[Function]}
+            getSTK={[Function]}
+      />,
+          "_debugID": 1,
+          "_hostContainerInfo": null,
+          "_hostParent": null,
+          "_instance": [Circular],
+          "_mountOrder": 1,
+          "_pendingCallbacks": null,
+          "_pendingElement": null,
+          "_pendingForceUpdate": false,
+          "_pendingReplaceState": false,
+          "_pendingStateQueue": null,
+          "_renderedComponent": NoopInternalComponent {
+            "_currentElement": <div
+              className="EchartsLeftMenu-container"
+      >
+              <DatePicker2
+                      dateEnd={"2017-06-07T09:12:35.000Z"}
+                      dateStart={"2017-06-07T09:12:35.000Z"}
+                      getEchartsLeftMenu={[Function]}
+                      getEquipmentPort={[Function]}
+                      getFromTo={[Function]}
+                      getHandlingPath={[Function]}
+                      getSTK={[Function]}
+              />
+              <AvailableFilters
+                      lineIDArr={undefined}
+                      line_code="PIPR01"
+                      operationArr={undefined}
+                      operation_code="2100"
+                      productArr={undefined}
+                      product_code="SV509-CF"
+                      subEntityArr={undefined}
+                      sub_eq_code="PIN02"
+                      that={[Circular]}
+              />
+              <Blueprint.Button
+                      className="btn-submit"
+                      onClick={[Function]}
+              >
+                      查询
+              </Blueprint.Button>
+      </div>,
+            "_debugID": 2,
+            "_renderedOutput": <div
+              className="EchartsLeftMenu-container"
+      >
+              <DatePicker2
+                      dateEnd={"2017-06-07T09:12:35.000Z"}
+                      dateStart={"2017-06-07T09:12:35.000Z"}
+                      getEchartsLeftMenu={[Function]}
+                      getEquipmentPort={[Function]}
+                      getFromTo={[Function]}
+                      getHandlingPath={[Function]}
+                      getSTK={[Function]}
+              />
+              <AvailableFilters
+                      lineIDArr={undefined}
+                      line_code="PIPR01"
+                      operationArr={undefined}
+                      operation_code="2100"
+                      productArr={undefined}
+                      product_code="SV509-CF"
+                      subEntityArr={undefined}
+                      sub_eq_code="PIN02"
+                      that={[Circular]}
+              />
+              <Blueprint.Button
+                      className="btn-submit"
+                      onClick={[Function]}
+              >
+                      查询
+              </Blueprint.Button>
+      </div>,
+          },
+          "_renderedNodeType": 0,
+          "_rootNodeID": 0,
+          "_topLevelWrapper": null,
+          "_updateBatchNumber": null,
+          "_warnedAboutRefsInRender": false,
+        },
+        "context": Object {},
+        "handClick": [Function],
+        "props": Object {
+          "dateEnd": "2017-06-07T09:12:35.000Z",
+          "dateStart": "2017-06-07T09:12:35.000Z",
+          "getEchartsLeftMenu": [Function],
+          "getEquipmentPort": [Function],
+          "getFromTo": [Function],
+          "getHandlingPath": [Function],
+          "getSTK": [Function],
+        },
+        "refs": Object {},
+        "state": Object {
+          "line_code": "PIPR01",
+          "operation_code": "2100",
+          "product_code": "SV509-CF",
+          "sub_eq_code": "PIN02",
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      }
+    }
+  />
+  <Blueprint.Button
+    className="btn-submit"
+    onClick={[Function]}
+  >
+    查询
+  </Blueprint.Button>
+</div>
+`;

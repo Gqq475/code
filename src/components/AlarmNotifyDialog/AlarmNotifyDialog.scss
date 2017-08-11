@@ -1,0 +1,29 @@
+.AlarmNotifyDialog-container {
+
+}
+
+.body {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 300px;
+  justify-content: space-around;
+}
+
+.successfulBody {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 100px;
+  font-size: 20px;
+}
+
+.checkboxGroup {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.btnGroup {
+  display: flex;
+  justify-content: flex-end;
+}

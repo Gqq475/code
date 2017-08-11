@@ -1,0 +1,404 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) CriteriaManagerEditer render normally 1`] = `
+<div
+  className="CriteriaManagerEditer-container"
+>
+  <div
+    className="title-save clearfix"
+  >
+    <h4>
+      规则详情
+    </h4>
+    <div>
+       
+    </div>
+  </div>
+  <div
+    className="enable-level-alarms"
+  >
+    <div
+      className="enable"
+    >
+      <Blueprint.Switch
+        label="Enable"
+        onChange={[Function]}
+      />
+    </div>
+    <div
+      className="level clearfix"
+    >
+      <div
+        className="level-left"
+      >
+        告警级别
+      </div>
+      <div
+        className="level-slider"
+      >
+        <Slider
+          disabled={false}
+          initialValue={0}
+          labelStepSize={1}
+          max={9}
+          min={1}
+          onChange={[Function]}
+          showTrackFill={true}
+          stepSize={1}
+          value={0}
+        />
+      </div>
+    </div>
+    <div
+      className="alarms"
+    >
+      <strong />
+    </div>
+  </div>
+  <div
+    className="step"
+  >
+    <div
+      className="step-item step-item-1"
+    >
+      <h5>
+        1. 
+        <span>
+          Product
+        </span>
+      </h5>
+      <div
+        className="padding-p"
+      >
+        <Select
+          handleChange={[Function]}
+          name="Product"
+          options={
+            Object {
+              "8V505-BF": "8V505-BF",
+              "GV507-DF": "GV507-DF",
+              "JV508-CG": "JV508-CG",
+              "NV506-HF": "NV506-HF",
+              "SV509-CF": "SV509-CF",
+            }
+          }
+        />
+      </div>
+      <div
+        className="padding-p"
+      >
+        <Select
+          handleChange={[Function]}
+          name="Operation"
+          options={
+            Object {
+              "2100": "2100",
+              "3100": "3100",
+              "4100": "4100",
+              "5100": "5100",
+              "6100": "6100",
+            }
+          }
+        />
+      </div>
+      <div
+        className="padding-p"
+      >
+        <Select
+          handleChange={[Function]}
+          name="LINE ID"
+          options={
+            Object {
+              "KIHR02": "KIHR02",
+              "LIPK90": "LIPK90",
+              "OIPK01": "OIPK01",
+              "PIPR01": "PIPR01",
+              "YIHR10": "YIHR10",
+            }
+          }
+        />
+      </div>
+      <div
+        className="padding-p"
+      >
+        <Select
+          handleChange={[Function]}
+          name="Sub entity"
+          options={
+            Object {
+              "PIN01": "PIN01",
+              "PIN02": "PIN02",
+              "PIN03": "PIN03",
+              "PIN04": "PIN04",
+              "PIN05": "PIN05",
+            }
+          }
+        />
+      </div>
+      <div
+        className="padding-p"
+      >
+        <LabelInput
+          handleChange={[Function]}
+          name="Outliner"
+        />
+      </div>
+      <div
+        className="padding-p"
+      >
+        <LabelInput
+          handleChange={[Function]}
+          name="Summary"
+        />
+      </div>
+    </div>
+    <div
+      className="step-item step-item-2"
+    >
+      <h5>
+        2. 
+        <span>
+          Condition
+        </span>
+      </h5>
+      <div
+        className="ooc-oos"
+      >
+        <LabelInput
+          className="pt-inline ooc"
+          handleChange={[Function]}
+          name="OOC"
+          styles={
+            Object {
+              "width": 50,
+            }
+          }
+        />
+        <LabelInput
+          className="pt-inline oos"
+          handleChange={[Function]}
+          name="OOS"
+          styles={
+            Object {
+              "width": 50,
+            }
+          }
+        />
+      </div>
+      <ul
+        className="ul"
+      >
+        <li>
+          <Blueprint.Checkbox
+            onChange={[Function]}
+          >
+            Total defect
+          </Blueprint.Checkbox>
+          <ul
+            className="ul"
+          >
+            <li
+              className="defect-size"
+            >
+              <Blueprint.Checkbox
+                disabled={true}
+                onChange={[Function]}
+              >
+                Defect size
+              </Blueprint.Checkbox>
+              <ul
+                className="ul"
+              >
+                <li>
+                  <Blueprint.Checkbox
+                    disabled={true}
+                    onChange={[Function]}
+                  >
+                    SS
+                  </Blueprint.Checkbox>
+                </li>
+                <li>
+                  <Blueprint.Checkbox
+                    disabled={true}
+                    onChange={[Function]}
+                  >
+                    S
+                  </Blueprint.Checkbox>
+                </li>
+                <li>
+                  <Blueprint.Checkbox
+                    disabled={true}
+                    onChange={[Function]}
+                  >
+                    M
+                  </Blueprint.Checkbox>
+                </li>
+                <li>
+                  <Blueprint.Checkbox
+                    disabled={true}
+                    onChange={[Function]}
+                  >
+                    L
+                  </Blueprint.Checkbox>
+                </li>
+                <li>
+                  <Blueprint.Checkbox
+                    disabled={true}
+                    onChange={[Function]}
+                  >
+                    O
+                  </Blueprint.Checkbox>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <Blueprint.Checkbox
+                disabled={true}
+                onChange={[Function]}
+              >
+                Defect Code (用逗号分隔)
+              </Blueprint.Checkbox>
+              <div
+                className="ml20"
+              >
+                <input
+                  className="pt-input"
+                  disabled={true}
+                  onChange={[Function]}
+                  placeholder=""
+                  type="text"
+                />
+              </div>
+            </li>
+            <li
+              className="mt10"
+            >
+              <Blueprint.Checkbox
+                disabled={true}
+                onChange={[Function]}
+              >
+                Judge defect Code (用逗号分隔)
+              </Blueprint.Checkbox>
+              <div
+                className="ml20"
+              >
+                <input
+                  className="pt-input"
+                  disabled={true}
+                  onChange={[Function]}
+                  placeholder=""
+                  type="text"
+                />
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="step-item step-item-1"
+    >
+      <h5>
+        3. 
+        <span>
+          Time
+        </span>
+      </h5>
+      <div
+        className="time-radio"
+      >
+        <Blueprint.Radio
+          checked={false}
+          label="单片超过(无时间设定)"
+          name="timeRadio"
+          onChange={[Function]}
+          value={1}
+        />
+        <Blueprint.Radio
+          checked={false}
+          label="时间区间内+片数设定"
+          name="timeRadio"
+          onChange={[Function]}
+          value={2}
+        />
+        <div
+          className="radio-select"
+        >
+          <Select
+            className="pt-inline left select"
+            disabled={false}
+            handleChange={[Function]}
+            name=""
+            options={
+              Object {
+                "1": "固定区间总和",
+                "2": "固定区间平均",
+                "3": "移动区间总和",
+                "4": "移动区间平均",
+              }
+            }
+            styles={
+              Object {
+                "width": 130,
+              }
+            }
+          />
+          <LabelInput
+            disabled={false}
+            handleChange={[Function]}
+            name=""
+            styles={
+              Object {
+                "float": "left",
+                "margin": "0 10px 0 10px",
+                "width": 50,
+              }
+            }
+          />
+          分钟
+        </div>
+        <div
+          className="radio-select"
+        >
+          <span
+            className="left span"
+          >
+            最少
+          </span>
+          <Select
+            className="pt-inline left select"
+            disabled={false}
+            handleChange={[Function]}
+            name=""
+            options={
+              Object {
+                "1": "连续片数",
+                "2": "累积片数",
+                "3": "平均片数",
+              }
+            }
+            styles={
+              Object {
+                "width": 100,
+              }
+            }
+          />
+          <LabelInput
+            disabled={false}
+            handleChange={[Function]}
+            name=""
+            styles={
+              Object {
+                "float": "left",
+                "margin": "0 10px 0 10px",
+                "width": 50,
+              }
+            }
+          />
+          片
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

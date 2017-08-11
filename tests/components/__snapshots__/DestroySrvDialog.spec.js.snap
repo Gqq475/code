@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) DestroySrvDialog render normally 1`] = `
+<div
+  className="Dialog-container"
+>
+  <Dialog
+    className="dialog"
+    isOpen={false}
+  >
+    <div
+      className="header"
+    >
+      <h6
+        className="headerTitle"
+      >
+        提示
+      </h6>
+    </div>
+    <div
+      className="dialogBody"
+    >
+      <br />
+      <p
+        className="cn"
+      >
+        Destroy Service
+      </p>
+      <div
+        className="btnGroup"
+      >
+        <Blueprint.Button
+          className="btnCancel"
+        />
+        <Blueprint.Button
+          className="pt-button pt-intent-primary btnEdit"
+          onClick={[Function]}
+        />
+      </div>
+    </div>
+  </Dialog>
+</div>
+`;

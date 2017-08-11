@@ -1,0 +1,74 @@
+.LabelingToolCategoryDialog-container {
+
+}
+.dialog {
+    width:650px;
+    padding:2px;
+    background: #F7F7F7;
+  }
+  .leftBox {
+    float: left;
+    width: 60%;
+  }
+  .rightBox {
+    float:right;
+    width: 38%;
+    margin-left: 2%;
+    margin-top: 20px;
+  }
+   .headerTitle {
+    margin: 10px 0px 10px 15px;
+    font-size: 16px;
+  }
+
+  .headerID {
+    margin-left: 15px;
+    font-size: 18px;
+    padding-bottom: 16px;
+  }
+  .dialogBody {
+    background: #fff;
+    color: #000;
+  }
+  .filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:45px;
+    line-height:45px;
+    margin:0px 10px;
+    font-size: 14px;
+  }
+  .select {
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    background: inherit;
+    box-shadow: none;
+    margin: 0;
+    border: 1px solid #D9D9D9;
+    height: 30px;
+    width: 160px;
+    border-radius: 3px;
+  }
+  .btnGroup {
+    margin:17px 0px;
+    clear: right;
+    float: right;
+  }
+  .btnEdit {
+    background: #0087DC;
+    color: #fff;
+    margin: 0px 10px 0px 15px;
+    width: 80px;
+    height: 35px;
+    font-size: 14px;
+  }
+  .btnCancel {
+    background: #fff;
+    border: 1px solid #0087DC !important;
+    color: #0087DC !important;
+    width: 80px;
+    height: 35px;
+    font-size: 14px;
+  }

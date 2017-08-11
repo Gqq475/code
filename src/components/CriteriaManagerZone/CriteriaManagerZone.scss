@@ -1,0 +1,123 @@
+$border: solid 1px #d7d7d7;
+
+.CriteriaManagerZone-container {
+  border: solid 1px #0073bb;
+  margin: 20px 0;
+  border-radius: 5px;
+  overflow: hidden;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 5px;
+    border-bottom: solid 1px #d7d7d7;
+    background: #f7f7f7;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    letter-spacing: .5px;
+  }
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .enabled-container,
+  .alarmAmount {
+    margin: 0 auto;
+  }
+
+  .enabled-container {
+    height: 40px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .slider-container {
+    width: 50%;
+    padding: 0 50px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left: $border;
+    border-right: $border;
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #f7f7f7;
+  border-top: $border;
+
+  .title {
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+
+  .title::first-letter {
+    font-size: 18px;
+  }
+}
+
+$content-padding: 20px 20px 10px 20px;
+
+.left-container {
+  width: 33.33%;
+  padding: $content-padding;
+  padding-right: 40px;
+}
+
+.center-container {
+  border-left: $border;
+  border-right: $border;
+  width: 33.33%;
+  padding: $content-padding;
+
+  .ul {
+    padding-left: 20px;
+  }
+  .ul::before {
+    display: none;
+  }
+
+  .total-defect {
+    margin: 10px 0;
+  }
+
+  .checkbox-group {
+    margin: 0 10px 5px 0;
+  }
+}
+
+.right-container {
+  width: 33.33%;
+  padding: $content-padding;
+
+  .time-group-container {
+    margin: 5px 0 0 20px;
+    width: 260px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .time-input {
+    width: 80px;
+  }
+
+  .time-input-text {
+    margin: 0 10px;
+  }
+}

@@ -1,0 +1,22 @@
+.ModelTrainedComplete-container {
+  margin-top: 20px;
+  .top {
+    height: 80px;
+    width: 100%;
+    padding: 25px 20px 0px 20px;
+    background-color: #f7f7f7;
+    border-bottom: solid 1px #d7d7d7;
+    border: solid 1px #d7d7d7;
+    border-radius: 4px;
+  }
+  .top-left{
+    display: flex;
+    align-items: center;
+    height: 30px;
+  }
+  .w50 {
+    width: 50%;
+    float: left;
+  }
+}
+

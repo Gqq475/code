@@ -1,0 +1,32 @@
+{
+  "parser"  : "babel-eslint",
+  "extends" : [
+    "standard",
+    "standard-react"
+  ],
+  "plugins" : [
+    "flowtype"
+  ],
+  "env"     : {
+    "browser" : true
+  },
+  "globals" : {
+    "Action"       : false,
+    "__DEV__"      : false,
+    "__PROD__"     : false,
+    "__DEBUG__"    : false,
+    "__DEBUG_NEW_WINDOW__" : false,
+    "__BASENAME__" : false,
+    "__QCA__"      : false,
+    "__MQTT__"     : false,
+    "_"            : false
+  },
+  "rules": {
+    "semi" : [2, "never"],
+    "max-len": [2, 120, 2],
+    "flowtype/define-flow-type": 1,
+    "flowtype/use-flow-type": 1,
+    "generator-star-spacing": 0,
+    "no-useless-escape": 0
+  }
+}

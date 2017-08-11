@@ -1,0 +1,28 @@
+.LoadingContainer-container {
+  position: fixed;
+  left: 0;
+  top: 80px;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.8;
+  //Set 30 because blueprint table use z-index 20 at most
+  z-index: 30;
+
+  .waitingIndicatorTxt {
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-size: 20px;
+  }
+
+  .waitingIndicator {
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    z-index: inherit;
+  }
+}
